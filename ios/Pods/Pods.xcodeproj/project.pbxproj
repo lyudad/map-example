@@ -1,0 +1,1450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1579EAAFC5190D1DF463298C3EB8B3F7 /* YGNodeList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0697F8985B004FDC858ECDDB900335A7 /* YGNodeList.c */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c11 -fPIC -fno-objc-arc"; }; };
+		764F684F4CA3D7968B87BC5C1E7EA53A /* Pods-map-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976FF42C0034027B885E3D9A85B608E /* Pods-map-dummy.m */; };
+		83FEC915B2B183BE1A862C447A5D2212 /* YGEnums.c in Sources */ = {isa = PBXBuildFile; fileRef = 1015AD9682B2617E259B89C8A2C12C7F /* YGEnums.c */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c11 -fPIC -fno-objc-arc"; }; };
+		8B386399FF90A9DEDBA332AB750401B5 /* Yoga.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4BA7E3F7F82D3D25048255E7972C4B /* Yoga.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCBE6470F2648A1F1AEE8F58A698BA7D /* YGNodeList.h in Headers */ = {isa = PBXBuildFile; fileRef = 39120FBF87916937ABB47D5A71EA6C44 /* YGNodeList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6AA819A08CFF5B5CC224FA230DC57B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53A15A241FD8AAFB51191B67D365185 /* Foundation.framework */; };
+		DFD11C5FE31BB52897098CC424A9496F /* Yoga.c in Sources */ = {isa = PBXBuildFile; fileRef = 5516DA9675285CEBF34CB3ED966C443A /* Yoga.c */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c11 -fPIC -fno-objc-arc"; }; };
+		E45A368F1DEB0601C6DC2959A719E511 /* Yoga-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2AE4A220C49DF356CDF6CDAAE37C82 /* Yoga-dummy.m */; };
+		F1252FA1111ABA345ABD978C635EA45B /* YGEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = F742A32A2BA91FF67BA7456BA1CE0C57 /* YGEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAA2D079AE8BF1237CBB413552086209 /* YGMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2300366B8099BEAE8BD6D82C4BD3E56E /* YGMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCC89628D7E18977830578FC32134FEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53A15A241FD8AAFB51191B67D365185 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45B27D074FA83E4B30F1B6C1C195DEE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B44E24836B692296C660C2849D82387C;
+			remoteInfo = Yoga;
+		};
+		80289B9F687EEE539B1242ABEB4D6103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB214C57F3E1FEEE32BA7F3;
+			remoteInfo = React;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DA35A913DECD2B4E7DF7B037552115 /* RCTJSCSamplingProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTJSCSamplingProfiler.h; sourceTree = "<group>"; };
+		01871E72EAB5271A8C45DF57D087CD8F /* RCTTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTTextView.h; path = Libraries/Text/RCTTextView.h; sourceTree = "<group>"; };
+		01D28FFC4544F5EF75CB1396AAEF8E12 /* RCTTabBarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTabBarManager.h; sourceTree = "<group>"; };
+		0226F45ECB56DEC3ACA33021F9C0EFA1 /* RCTFPSGraph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTFPSGraph.h; sourceTree = "<group>"; };
+		0391ED350669A31A1FE184BB46486F59 /* RCTBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTBridge.m; sourceTree = "<group>"; };
+		03E15FBD6899463B8CD881809E9D3BC3 /* RCTBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTBridge.h; sourceTree = "<group>"; };
+		04187DFEC4573EA6B110E241050CCD46 /* RCTSourceCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSourceCode.h; sourceTree = "<group>"; };
+		05D8893F52EC6EA3A1BF41DB0A554328 /* RCTProfileTrampoline-arm.S */ = {isa = PBXFileReference; includeInIndex = 1; path = "RCTProfileTrampoline-arm.S"; sourceTree = "<group>"; };
+		06657444FAD50DEBE2ADB557215F4B73 /* RCTNativeAnimatedModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTNativeAnimatedModule.h; path = Libraries/NativeAnimation/RCTNativeAnimatedModule.h; sourceTree = "<group>"; };
+		068E74855F7FEBAA9722AF2329985EE6 /* RCTAnimationDriver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAnimationDriver.h; sourceTree = "<group>"; };
+		0697F8985B004FDC858ECDDB900335A7 /* YGNodeList.c */ = {isa = PBXFileReference; includeInIndex = 1; name = YGNodeList.c; path = yoga/YGNodeList.c; sourceTree = "<group>"; };
+		06A9E4657FD9BABD1818B55DEF1E7C96 /* RCTPlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTPlatform.m; sourceTree = "<group>"; };
+		07C6B9AB3C45613DF1113710E58D3BDC /* RCTNavigatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTNavigatorManager.h; sourceTree = "<group>"; };
+		09661289C3AD6A1B17D9E8496037CEBE /* RCTRootViewInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRootViewInternal.h; sourceTree = "<group>"; };
+		0A952D4A77B1900F1CD1CD8CA949EAE1 /* RCTValueAnimatedNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTValueAnimatedNode.h; sourceTree = "<group>"; };
+		0AA96091511A60A689B8B81FD01807DF /* RCTRedBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRedBox.h; sourceTree = "<group>"; };
+		0AC1E7BB28315778E54FBD8A3500FD11 /* RCTGIFImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTGIFImageDecoder.m; path = Libraries/Image/RCTGIFImageDecoder.m; sourceTree = "<group>"; };
+		0B14E6EAC04DE68C33DC538825CB09D5 /* RCTRootViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRootViewDelegate.h; sourceTree = "<group>"; };
+		0B83FAB4A6DC05AAE2C337B4EC58D078 /* RCTJSEnvironment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTJSEnvironment.h; sourceTree = "<group>"; };
+		0DA4042DE43DF43BF5F8DFCB1A4E1F33 /* RCTUITextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTUITextField.m; path = Libraries/Text/RCTUITextField.m; sourceTree = "<group>"; };
+		0FC36F6541C3F68769D578029E43DCA8 /* RCTSliderManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSliderManager.m; sourceTree = "<group>"; };
+		100C5C4E144E4D9FE7C2889494C649B4 /* Yoga-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Yoga-prefix.pch"; sourceTree = "<group>"; };
+		1015AD9682B2617E259B89C8A2C12C7F /* YGEnums.c */ = {isa = PBXFileReference; includeInIndex = 1; name = YGEnums.c; path = yoga/YGEnums.c; sourceTree = "<group>"; };
+		1032A056731C08F9AC64706ED20AEE54 /* RCTBorderDrawing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTBorderDrawing.m; sourceTree = "<group>"; };
+		104EAB1E7A3ACE73CC8201CB65E8FB3A /* RCTMultipartDataTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTMultipartDataTask.h; sourceTree = "<group>"; };
+		10EA3022D397C279C355935287619800 /* RCTFrameAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTFrameAnimation.h; sourceTree = "<group>"; };
+		12353AB22C2CA94DB87769CAC26FD626 /* RCTImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTImageCache.m; path = Libraries/Image/RCTImageCache.m; sourceTree = "<group>"; };
+		12C542E1C83ECE429BE6DDCF97D23CEF /* RCTRootContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRootContentView.h; sourceTree = "<group>"; };
+		12F872DFFAF4B5B55FDAE94A9CADAD23 /* RCTNavigatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTNavigatorManager.m; sourceTree = "<group>"; };
+		1333DF34BCC1C2CC9826871BD1C6560E /* RCTScrollViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTScrollViewManager.h; sourceTree = "<group>"; };
+		1560C83F43C21C06C8BDB5DBC177B8CD /* RCTRootShadowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRootShadowView.h; sourceTree = "<group>"; };
+		16AC5B892CA33BFE09BCFD448FDD13BD /* RCTAlertManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAlertManager.h; sourceTree = "<group>"; };
+		1796422473E3DB2B2C06BFEB126FF89C /* RCTTextDecorationLineType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTextDecorationLineType.h; sourceTree = "<group>"; };
+		17CBC0CE9761C65DF624D2186B518E9E /* RCTTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTTextField.h; path = Libraries/Text/RCTTextField.h; sourceTree = "<group>"; };
+		18596725E5E5928052A51330BC80A859 /* RCTModalHostViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTModalHostViewManager.m; sourceTree = "<group>"; };
+		18A8F53FB63288CE2BFF4A844C611552 /* RCTI18nManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTI18nManager.h; sourceTree = "<group>"; };
+		1A727AB52284DEE682C2DBF80285D081 /* RCTNullability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTNullability.h; sourceTree = "<group>"; };
+		1B066CB7435C300E38525058832D47C5 /* Pods-map-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-map-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1BAF33A5447F1C7723D341499DAABEEF /* RCTWrapperViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTWrapperViewController.m; sourceTree = "<group>"; };
+		1E748077433823559EA601F99DF38E8F /* RCTUIManagerObserverCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTUIManagerObserverCoordinator.h; sourceTree = "<group>"; };
+		2111ED1DADCBAF95E37E0A106EB36E52 /* RCTModalHostView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTModalHostView.m; sourceTree = "<group>"; };
+		21A45A41DC58007898EFF0A2EDF83489 /* RCTMultipartDataTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTMultipartDataTask.m; sourceTree = "<group>"; };
+		2263180F7A1D14D4A7CEDD9C98900340 /* RCTNetInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTNetInfo.h; path = Libraries/Network/RCTNetInfo.h; sourceTree = "<group>"; };
+		2263F0BF6D8F6991A20F8CCB4EEE4988 /* RCTModalHostViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTModalHostViewManager.h; sourceTree = "<group>"; };
+		2277A2BDB31858875CEC239863195213 /* RCTRefreshControlManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTRefreshControlManager.m; sourceTree = "<group>"; };
+		22E793CDB1C4D9553FD4C521780737EA /* RCTShadowView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCTShadowView+Layout.h"; sourceTree = "<group>"; };
+		2300366B8099BEAE8BD6D82C4BD3E56E /* YGMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGMacros.h; path = yoga/YGMacros.h; sourceTree = "<group>"; };
+		23682A0D29B62ECBFC7598324D98FB88 /* RCTConvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTConvert.h; sourceTree = "<group>"; };
+		23EA34B934584C06CA93AA6EF034B78D /* RCTTabBarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTabBarManager.m; sourceTree = "<group>"; };
+		2449E0398F7432B09F0285A2EF14EC3D /* RCTDataRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTDataRequestHandler.h; path = Libraries/Network/RCTDataRequestHandler.h; sourceTree = "<group>"; };
+		24A70619F607DB7D4BD56C3190F614BD /* Yoga.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Yoga.xcconfig; sourceTree = "<group>"; };
+		25FDEAB5E564604FFD6B27303C526B57 /* RCTView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTView.h; sourceTree = "<group>"; };
+		2633E1DB6F18F6A69AC192A88C3278CC /* RCTNativeAnimatedNodesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTNativeAnimatedNodesManager.m; path = Libraries/NativeAnimation/RCTNativeAnimatedNodesManager.m; sourceTree = "<group>"; };
+		2634F0F2ED4C445AFDF7C591455CF05B /* RCTView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTView.m; sourceTree = "<group>"; };
+		274325FA82B9DFC6BF9AF69BA4D7EB6D /* UIView+React.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+React.h"; sourceTree = "<group>"; };
+		280127A234ACFCE8BBB9B0B27C51794E /* RCTModalHostView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTModalHostView.h; sourceTree = "<group>"; };
+		28138930783525E37E5E25C3532BB9BC /* RCTSegmentedControlManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSegmentedControlManager.m; sourceTree = "<group>"; };
+		285B07084CED5B8409FC45B12EFAA82C /* RCTScrollViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTScrollViewManager.m; sourceTree = "<group>"; };
+		2873F24F2F6C01420CECAE7E3F7AF035 /* RCTFileRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTFileRequestHandler.h; path = Libraries/Network/RCTFileRequestHandler.h; sourceTree = "<group>"; };
+		28D31A3D70E92FB7C684FA47BE47114E /* RCTTextFieldManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTTextFieldManager.h; path = Libraries/Text/RCTTextFieldManager.h; sourceTree = "<group>"; };
+		298CE4C1A0A865A5E331E203C7BFBDDB /* RCTI18nUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTI18nUtil.m; sourceTree = "<group>"; };
+		2B9AC28A8363DCA127FF4C72E4BE7B4C /* RCTSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSegmentedControl.h; sourceTree = "<group>"; };
+		2BBBCE1F45AA058B94EACB5BB0229A08 /* RCTImageEditingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTImageEditingManager.m; path = Libraries/Image/RCTImageEditingManager.m; sourceTree = "<group>"; };
+		2C0EC8C1352781F37F9C348D1AEE3664 /* RCTSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSegmentedControl.m; sourceTree = "<group>"; };
+		2C4AB0B421360870066D2AA146AECC57 /* RCTDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTDecayAnimation.h; sourceTree = "<group>"; };
+		2E418291F73074BE381AD3DE0E3A7EE8 /* RCTWebSocketExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTWebSocketExecutor.h; path = Libraries/WebSocket/RCTWebSocketExecutor.h; sourceTree = "<group>"; };
+		2F78A249C459CD7370A64B0117D74F3D /* RCTImageSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTImageSource.m; sourceTree = "<group>"; };
+		3054DB2FEF3D8D7A81FD4160589BF503 /* RCTFrameUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTFrameUpdate.m; sourceTree = "<group>"; };
+		308FA0F5E79A98448640C3688161B570 /* RCTTiming.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTiming.m; sourceTree = "<group>"; };
+		3220F6D99BA810977E77A40E362E2104 /* RCTFont.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTFont.mm; sourceTree = "<group>"; };
+		3233BE5538336F30381F5E199453CB50 /* RCTModalHostViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTModalHostViewController.m; sourceTree = "<group>"; };
+		3270ADF18DEF01744E76FFE39CB14EF2 /* RCTDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTDatePicker.m; sourceTree = "<group>"; };
+		3282F7561FB0090428A6136FB9338399 /* RCTTVNavigationEventEmitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTVNavigationEventEmitter.h; sourceTree = "<group>"; };
+		339145B485A60D38F4A5A869F11F0AE2 /* RCTTextSelection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTTextSelection.m; path = Libraries/Text/RCTTextSelection.m; sourceTree = "<group>"; };
+		34E45B9B4DC801E60F467C632E7A367A /* RCTWebViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTWebViewManager.m; sourceTree = "<group>"; };
+		35DA2547BC0BBCE79DB33C7A11E5FA4D /* RCTShadowTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTShadowTextField.h; path = Libraries/Text/RCTShadowTextField.h; sourceTree = "<group>"; };
+		35F24E0393475B96B5C6146BC86F1431 /* RCTWebViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTWebViewManager.h; sourceTree = "<group>"; };
+		36FFD8C16BEDB48B72FFAA0696D881B4 /* React-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "React-prefix.pch"; sourceTree = "<group>"; };
+		373A1B57AD241BD43BD8417865C3CC31 /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libReact.a; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		37415516D02831C67B672F29095CB2C3 /* RCTJSCProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTJSCProfiler.m; sourceTree = "<group>"; };
+		37B98CEEDB302434B52BA3F9793FBC37 /* RCTSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSlider.m; sourceTree = "<group>"; };
+		37C9CED5776B303F91AE2CD4DEC653EB /* RCTAnimatedNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAnimatedNode.h; sourceTree = "<group>"; };
+		3905D626C67844CAD016A80B224D44D1 /* RCTImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTImageView.m; path = Libraries/Image/RCTImageView.m; sourceTree = "<group>"; };
+		39120FBF87916937ABB47D5A71EA6C44 /* YGNodeList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGNodeList.h; path = yoga/YGNodeList.h; sourceTree = "<group>"; };
+		3994387B09EB545E7B1A8998DD6461B3 /* RCTPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTPicker.h; sourceTree = "<group>"; };
+		399DE69EC70D2C227DD9A24007708DD9 /* RCTImageUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTImageUtils.m; path = Libraries/Image/RCTImageUtils.m; sourceTree = "<group>"; };
+		3A38992ABCDDBB615A03AA08B6F3FD78 /* RCTFileRequestHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTFileRequestHandler.m; path = Libraries/Network/RCTFileRequestHandler.m; sourceTree = "<group>"; };
+		3A48E486EF0DB993D5341BDA964E540B /* InspectorInterfaces.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InspectorInterfaces.h; path = ReactCommon/jschelpers/InspectorInterfaces.h; sourceTree = "<group>"; };
+		3A6C65460E374BA6D244A65AE934E6A4 /* RCTImageShadowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTImageShadowView.h; path = Libraries/Image/RCTImageShadowView.h; sourceTree = "<group>"; };
+		3ABF1E1013354CFBCE2F18B588BF63FB /* RCTComponentData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTComponentData.m; sourceTree = "<group>"; };
+		3AD95AC0AEB7AD61A3D941F5795C87BA /* RCTEventEmitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTEventEmitter.m; sourceTree = "<group>"; };
+		3B076DFC56E31930CBB120F35F78B140 /* RCTJavaScriptLoader.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTJavaScriptLoader.mm; sourceTree = "<group>"; };
+		3B47D067544EAC747C91735DB8363388 /* RCTProfileTrampoline-x86_64.S */ = {isa = PBXFileReference; includeInIndex = 1; path = "RCTProfileTrampoline-x86_64.S"; sourceTree = "<group>"; };
+		3BDC97BCF68646B95D3E4AF264E4F005 /* RCTTouchEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTouchEvent.h; sourceTree = "<group>"; };
+		3C49DE3D6C14BCBD7B3CB4DA14323886 /* RCTDevSettings.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTDevSettings.mm; sourceTree = "<group>"; };
+		3C9611BDAA802FEC7E3121544545AB50 /* RCTRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTRefreshControl.m; sourceTree = "<group>"; };
+		3CF8D8ED164236DEA6850A5BA9945630 /* RCTClipboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTClipboard.h; sourceTree = "<group>"; };
+		3E577FB7204F029C7D6BB20953BE93CA /* RCTResizeMode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTResizeMode.m; path = Libraries/Image/RCTResizeMode.m; sourceTree = "<group>"; };
+		3F92BC2CEDB0782B40CC9F40DB09D059 /* RCTBridgeMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTBridgeMethod.h; sourceTree = "<group>"; };
+		401064419E4E403C2EE03F47A2EBD7D9 /* RCTLayoutAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTLayoutAnimation.h; sourceTree = "<group>"; };
+		408C7B302559F76B4CB64D929A85B303 /* RCTProgressViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTProgressViewManager.m; sourceTree = "<group>"; };
+		41165D6C7943808BA8011D4DB6318834 /* RCTScrollContentViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTScrollContentViewManager.m; sourceTree = "<group>"; };
+		42957428CC6D11D058A712360EBA37B3 /* RCTImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTImageLoader.h; path = Libraries/Image/RCTImageLoader.h; sourceTree = "<group>"; };
+		4312EBE009293A720FE7F8F8CC631906 /* RCTScrollContentShadowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTScrollContentShadowView.h; sourceTree = "<group>"; };
+		43402004E26DA3116D8A7A0A42110112 /* RCTURLRequestDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTURLRequestDelegate.h; sourceTree = "<group>"; };
+		4369669232CC8E03225CE05008BFDE54 /* RCTSpringAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSpringAnimation.m; sourceTree = "<group>"; };
+		43A5644A5CCF1C534FBADB8B05ED1498 /* RCTLocalAssetImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTLocalAssetImageLoader.m; path = Libraries/Image/RCTLocalAssetImageLoader.m; sourceTree = "<group>"; };
+		43CE7C6443885565E50C9914B0FE6432 /* RCTSettingsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTSettingsManager.h; path = Libraries/Settings/RCTSettingsManager.h; sourceTree = "<group>"; };
+		44246B5E8A5C14FFBEB268D90292975F /* RCTModuleMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTModuleMethod.m; sourceTree = "<group>"; };
+		4590D98DAC3F863CE9CBE24205B36502 /* RCTMultipartStreamReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTMultipartStreamReader.m; sourceTree = "<group>"; };
+		463C1C1C47A78FD20FA67F58563EAA18 /* RCTJSCExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTJSCExecutor.h; sourceTree = "<group>"; };
+		465BD172964EBCEC6820D9E82D4293A9 /* RCTTouchHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTouchHandler.h; sourceTree = "<group>"; };
+		466E4BA3C51A9247094E34CA3BDDC3F8 /* RCTPickerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTPickerManager.m; sourceTree = "<group>"; };
+		486CB102FB39E676EF6EA46321834232 /* RCTErrorInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTErrorInfo.h; sourceTree = "<group>"; };
+		49BB17D0D68D16212610007EF18C277D /* RCTJSStackFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTJSStackFrame.m; sourceTree = "<group>"; };
+		49E6B52E3F5AC138A68A41DBE975D71E /* RCTFrameUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTFrameUpdate.h; sourceTree = "<group>"; };
+		4A7BC0AECBE3D1C6327606425CDAEA5F /* RCTShadowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTShadowView.h; sourceTree = "<group>"; };
+		4B766C30BC5D8FE4C81371BA09A17935 /* RCTPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTPlatform.h; sourceTree = "<group>"; };
+		4B783CEF5637EEC8D0C6EC80CAE083FB /* RCTInterpolationAnimatedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTInterpolationAnimatedNode.m; sourceTree = "<group>"; };
+		4BBC7A4A55031D2210F3FC85C2EEBD3D /* RCTDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTDatePicker.h; sourceTree = "<group>"; };
+		4E8C3C5872E3F8FB6117F4E6B6C5F128 /* RCTTextSelection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTTextSelection.h; path = Libraries/Text/RCTTextSelection.h; sourceTree = "<group>"; };
+		4F5972BC6F2B50B4AE9243972A23A73F /* RCTKeyboardObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTKeyboardObserver.h; sourceTree = "<group>"; };
+		505400F0613FFCC766DF5B092F8B8B0D /* RCTPropsAnimatedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTPropsAnimatedNode.m; sourceTree = "<group>"; };
+		508AB555D87D32DE1D7C7FCED5024516 /* RCTPickerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTPickerManager.h; sourceTree = "<group>"; };
+		50F57D9C151C4C12234EC9FF448150F5 /* RCTEventAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTEventAnimation.h; sourceTree = "<group>"; };
+		517BC1D43D849F7E4CCAFFB0B6E7FA0E /* Pods-map-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-map-acknowledgements.plist"; sourceTree = "<group>"; };
+		51B476B07DE98E7B62E10A6CB2B7D2D5 /* RCTMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTMacros.h; sourceTree = "<group>"; };
+		51EB2F76C04C1D009710CBE416BF1057 /* RCTPerfMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTPerfMonitor.m; sourceTree = "<group>"; };
+		5309905DC7CB86644DE9ACDFF0D64850 /* Pods-map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-map.release.xcconfig"; sourceTree = "<group>"; };
+		53C44BD75626567299430F099535146C /* RCTProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTProfile.h; sourceTree = "<group>"; };
+		541FF1EFBC462C5F2D6025B4EF3AC3F4 /* RCTScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTScrollView.m; sourceTree = "<group>"; };
+		549B20237206A1FEE08267560BD2AFCC /* RCTReconnectingWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTReconnectingWebSocket.m; path = Libraries/WebSocket/RCTReconnectingWebSocket.m; sourceTree = "<group>"; };
+		5512A7BF7BC2C4129C87AE5E581D444B /* RCTJSCSamplingProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTJSCSamplingProfiler.m; sourceTree = "<group>"; };
+		5516DA9675285CEBF34CB3ED966C443A /* Yoga.c */ = {isa = PBXFileReference; includeInIndex = 1; name = Yoga.c; path = yoga/Yoga.c; sourceTree = "<group>"; };
+		55F99D8EE00F025DC58DAB1300391266 /* RCTJSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTJSStackFrame.h; sourceTree = "<group>"; };
+		56047A3A3CAE25AB09EC554FEA4AA5CC /* RCTRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRefreshControl.h; sourceTree = "<group>"; };
+		5624F35882DBE3469D4CCA50BD248F32 /* RCTDevSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTDevSettings.h; sourceTree = "<group>"; };
+		56938844A93C91408E8EDC549DAEC81E /* RCTPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTPicker.m; sourceTree = "<group>"; };
+		57DBA127747B353EC0146D27D369E3AF /* RCTUIManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTUIManager.h; sourceTree = "<group>"; };
+		57DC3795213031443C4208F2019764B2 /* RCTProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTProfile.m; sourceTree = "<group>"; };
+		58D4E8F6A03F21387241FCE7958A66B2 /* RCTConvert+Transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+Transform.h"; sourceTree = "<group>"; };
+		591583601D26CBC7AAD105D0DB933EB4 /* RCTScrollContentShadowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTScrollContentShadowView.m; sourceTree = "<group>"; };
+		59DE2E42A2A3053F4E137E98B8D1F961 /* RCTDisplayLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTDisplayLink.m; sourceTree = "<group>"; };
+		5A1022E5CB10D1AD294F5C9D902C9547 /* RCTJSCErrorHandling.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTJSCErrorHandling.mm; sourceTree = "<group>"; };
+		5AAAB8C64C3D47CE849E4606EFA44B03 /* RCTTiming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTiming.h; sourceTree = "<group>"; };
+		5B60DCF6C8ABCACCEADA8D17C1431275 /* RCTDecayAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTDecayAnimation.m; sourceTree = "<group>"; };
+		5BA211455DF5E651F365899E23C5F7D4 /* RCTLocalAssetImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTLocalAssetImageLoader.h; path = Libraries/Image/RCTLocalAssetImageLoader.h; sourceTree = "<group>"; };
+		5C875E8CA8A7BB800210CC9B80DD59C0 /* RCTLinkingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTLinkingManager.m; path = Libraries/LinkingIOS/RCTLinkingManager.m; sourceTree = "<group>"; };
+		5CD513680A5E3FF020B34E6E3E2DF133 /* RCTAccessibilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAccessibilityManager.h; sourceTree = "<group>"; };
+		5DB413DE1A0B3DA76017AF677A5988E5 /* RCTNavItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTNavItem.m; sourceTree = "<group>"; };
+		5DF1EA7F17A571FFC5F7845747A2FFE9 /* RCTImageSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTImageSource.h; sourceTree = "<group>"; };
+		5E3D77B332F12FBDFFF33D8B0F29B6FA /* RCTActivityIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTActivityIndicatorView.m; sourceTree = "<group>"; };
+		5EB1128651D1F1F9DF76A3279FE596B8 /* RCTSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSlider.h; sourceTree = "<group>"; };
+		5F1C7A37266D0AC22387C8D52C0B4E30 /* RCTURLRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTURLRequestHandler.h; sourceTree = "<group>"; };
+		5F8CAEC69ACCC30F0CA23A479F73256A /* RCTTextInput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTTextInput.m; path = Libraries/Text/RCTTextInput.m; sourceTree = "<group>"; };
+		62725C5C9F1EB23ADE218A93D71CC95E /* RCTShadowView+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCTShadowView+Layout.m"; sourceTree = "<group>"; };
+		6424A9A7C4E6C7831AA837B4923E5EF7 /* RCTWebSocketObserverProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTWebSocketObserverProtocol.h; sourceTree = "<group>"; };
+		6552F0F9FDC67B45DE9B3919829DF225 /* RCTDatePickerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTDatePickerManager.h; sourceTree = "<group>"; };
+		6562A59AF7C577ADB5ECB6F141BD8BAE /* Pods-map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-map.debug.xcconfig"; sourceTree = "<group>"; };
+		65B804BD9C6C4433571361F6D9200FB4 /* Pods-map-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-map-frameworks.sh"; sourceTree = "<group>"; };
+		65BB8AC37D1E739CB4E964579E16E61C /* RCTTextFieldManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTTextFieldManager.m; path = Libraries/Text/RCTTextFieldManager.m; sourceTree = "<group>"; };
+		66F84C77776B8B458204B45833EEAB69 /* systemJSCWrapper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = systemJSCWrapper.cpp; path = ReactCommon/jschelpers/systemJSCWrapper.cpp; sourceTree = "<group>"; };
+		6722D65DF64358D82122806E4F979D1E /* RCTFPSGraph.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTFPSGraph.m; sourceTree = "<group>"; };
+		691D6B96866C2A1805F7EA9D6EDF1B06 /* RCTTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTabBarItem.m; sourceTree = "<group>"; };
+		6B484021B19991EEB63D7CB9D3B29DF1 /* RCTJSCProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTJSCProfiler.h; sourceTree = "<group>"; };
+		6B4DDD1C6F28E2007DA0090E1ECC3A10 /* RCTComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTComponent.h; sourceTree = "<group>"; };
+		6C5972D47A0DD5600C861014EF9D3FC6 /* RCTAssert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAssert.h; sourceTree = "<group>"; };
+		6CB26137FA5FE489E00BFF5902AF43D0 /* RCTKeyCommands.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTKeyCommands.m; sourceTree = "<group>"; };
+		6D646BA937F582E1AF468F26C85FBE28 /* RCTConvert+CoreLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+CoreLocation.m"; sourceTree = "<group>"; };
+		6D8015FBFD83F4603BBC1F8A34F0F586 /* RCTNavigator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTNavigator.m; sourceTree = "<group>"; };
+		6E91ACCDC6EA5B35427236C3F7B36C92 /* RCTConvert+Text.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RCTConvert+Text.h"; path = "Libraries/Text/RCTConvert+Text.h"; sourceTree = "<group>"; };
+		6FE38D71C64177530084699B4D1856AC /* RCTResizeMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTResizeMode.h; path = Libraries/Image/RCTResizeMode.h; sourceTree = "<group>"; };
+		7008FB48252C59A54D360B5F6454B4DD /* RCTModuloAnimatedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTModuloAnimatedNode.m; sourceTree = "<group>"; };
+		718B4FA939F134816148EC41619E0442 /* RCTActivityIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTActivityIndicatorView.h; sourceTree = "<group>"; };
+		7211D6B01B12FB087EEAB2DB781E1A95 /* JSCWrapper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = JSCWrapper.cpp; path = ReactCommon/jschelpers/JSCWrapper.cpp; sourceTree = "<group>"; };
+		728633FC5F0CAD4B2F83C149C2C38A7C /* RCTTouchEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTouchEvent.m; sourceTree = "<group>"; };
+		72FA8D218BBC0D3EF8E09638742809D7 /* RCTAdditionAnimatedNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAdditionAnimatedNode.h; sourceTree = "<group>"; };
+		761CAD85A312DC11072348678DFC4040 /* RCTReconnectingWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTReconnectingWebSocket.h; path = Libraries/WebSocket/RCTReconnectingWebSocket.h; sourceTree = "<group>"; };
+		7664E1F10B67F4A25F98FDC2FCC69EF0 /* RCTBridgeModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTBridgeModule.h; sourceTree = "<group>"; };
+		7712C5795175612196C3F66B71EE5285 /* RCTAccessibilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTAccessibilityManager.m; sourceTree = "<group>"; };
+		788207DD7256D3AEF56E57D9D5312769 /* RCTAutoInsetsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAutoInsetsProtocol.h; sourceTree = "<group>"; };
+		78BECE66B64DB1C58AB0C28F405C2364 /* RCTSettingsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTSettingsManager.m; path = Libraries/Settings/RCTSettingsManager.m; sourceTree = "<group>"; };
+		78DC722F637992997A3BDF3F64C13F44 /* RCTErrorInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTErrorInfo.m; sourceTree = "<group>"; };
+		793DFC4E94CBF257F5A611C8A61BA87F /* RCTDiffClampAnimatedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTDiffClampAnimatedNode.m; sourceTree = "<group>"; };
+		79573F70946E6FA51FA9C130BB87DEC6 /* RCTClipboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTClipboard.m; sourceTree = "<group>"; };
+		7976FF42C0034027B885E3D9A85B608E /* Pods-map-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-map-dummy.m"; sourceTree = "<group>"; };
+		797926C7F570F3FC129834A042E20776 /* RCTExceptionsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTExceptionsManager.m; sourceTree = "<group>"; };
+		7A16F307335C9893CE28EAF2F1DC75F5 /* RCTWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTWebView.h; sourceTree = "<group>"; };
+		7AF9776E7FF4F3DD265D42C2229B6205 /* RCTViewControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTViewControllerProtocol.h; sourceTree = "<group>"; };
+		7BE30D30BCFE03F958C325DC49D4E0D3 /* RCTSourceCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSourceCode.m; sourceTree = "<group>"; };
+		7C361CDDBB05735F7E24E202AB4B5579 /* RCTAssert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTAssert.m; sourceTree = "<group>"; };
+		7C4BA7E3F7F82D3D25048255E7972C4B /* Yoga.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Yoga.h; path = yoga/Yoga.h; sourceTree = "<group>"; };
+		7D5A1DE4123CF1B144159420ACED5D08 /* RCTImageEditingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTImageEditingManager.h; path = Libraries/Image/RCTImageEditingManager.h; sourceTree = "<group>"; };
+		7D8A2DA459DCDB64FA0B30486D66DBA5 /* RCTShadowTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTShadowTextView.h; path = Libraries/Text/RCTShadowTextView.h; sourceTree = "<group>"; };
+		7D9DE0E2B92EC5CB5F76EEF39837E7C5 /* React.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = React.xcconfig; sourceTree = "<group>"; };
+		7E929E21ABE3C0DD577165833C66961C /* RCTProgressViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTProgressViewManager.h; sourceTree = "<group>"; };
+		7EAE0015CC1EFCFF29683AF1FEABEC69 /* RCTUITextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTUITextField.h; path = Libraries/Text/RCTUITextField.h; sourceTree = "<group>"; };
+		7EC366922C98AC817B29E4EF57457196 /* RCTAsyncLocalStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTAsyncLocalStorage.m; sourceTree = "<group>"; };
+		80009733E120211AB607EBC21D4C5184 /* RCTImageBlurUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTImageBlurUtils.m; path = Libraries/Image/RCTImageBlurUtils.m; sourceTree = "<group>"; };
+		808BB2DC9FE5D47A5CAD157077E29543 /* RCTActionSheetManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTActionSheetManager.h; path = Libraries/ActionSheetIOS/RCTActionSheetManager.h; sourceTree = "<group>"; };
+		80D0E3D7E09A88932763BD272C7402C4 /* Pods-map-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-map-resources.sh"; sourceTree = "<group>"; };
+		812026B3A646415F5F78C3A3F465F2D5 /* RCTParserUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTParserUtils.h; sourceTree = "<group>"; };
+		816F2C785FCB2599115D6EA0932011FC /* RCTActionSheetManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTActionSheetManager.m; path = Libraries/ActionSheetIOS/RCTActionSheetManager.m; sourceTree = "<group>"; };
+		817F6B06A8F1C4E762FB1F513A3E5254 /* RCTNetworkTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTNetworkTask.m; path = Libraries/Network/RCTNetworkTask.m; sourceTree = "<group>"; };
+		8266B8CE300EE33576E3E7814D276CFE /* RCTNativeAnimatedModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTNativeAnimatedModule.m; path = Libraries/NativeAnimation/RCTNativeAnimatedModule.m; sourceTree = "<group>"; };
+		828622C7353387F1AD641FEE99FA8DED /* RCTImageStoreManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTImageStoreManager.h; path = Libraries/Image/RCTImageStoreManager.h; sourceTree = "<group>"; };
+		82F1A307226407C9E7A1CBCD2FBCCE64 /* RCTDiffClampAnimatedNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTDiffClampAnimatedNode.h; sourceTree = "<group>"; };
+		83160627440C96718E677B8E2D09A570 /* RCTHTTPRequestHandler.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RCTHTTPRequestHandler.mm; path = Libraries/Network/RCTHTTPRequestHandler.mm; sourceTree = "<group>"; };
+		83437037ED5B2BC235A0D3F94057427A /* RCTGIFImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTGIFImageDecoder.h; path = Libraries/Image/RCTGIFImageDecoder.h; sourceTree = "<group>"; };
+		83A089F6BF5BF870F1825DFBA30FEB41 /* RCTBundleURLProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTBundleURLProvider.h; sourceTree = "<group>"; };
+		84F6E30AD7B66B59110059973D35E400 /* RCTConvert+Transform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+Transform.m"; sourceTree = "<group>"; };
+		881910AD2D747983B7C377BF1CFC170F /* JSBundleType.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = JSBundleType.cpp; path = ReactCommon/cxxreact/JSBundleType.cpp; sourceTree = "<group>"; };
+		8894145A83D42C0ECA28F313B9249AFB /* RCTStatusBarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTStatusBarManager.m; sourceTree = "<group>"; };
+		8A0106C53509B75FC6C85843CFF051BE /* RCTEventDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTEventDispatcher.h; sourceTree = "<group>"; };
+		8B5148ACDB5C8E36C457594D1BCDEB74 /* RCTWrapperViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTWrapperViewController.h; sourceTree = "<group>"; };
+		8CD45092E19A44B94FD6F817D7710EB0 /* RCTRootView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTRootView.m; sourceTree = "<group>"; };
+		8CD998C8FBB33EAE7B7B813FB91062CF /* RCTViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTViewManager.m; sourceTree = "<group>"; };
+		8D4DEBC8E1CA222B08474E0659BD63C5 /* RCTLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTLog.h; sourceTree = "<group>"; };
+		8D8F0F13411A4FFD6F2F026609E47387 /* RCTNativeAnimatedNodesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTNativeAnimatedNodesManager.h; path = Libraries/NativeAnimation/RCTNativeAnimatedNodesManager.h; sourceTree = "<group>"; };
+		8E8DD3E2971216282DB8CB944B01D621 /* RCTConvert+CoreLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+CoreLocation.h"; sourceTree = "<group>"; };
+		8F631BB266433E8229B622CCD6729D3D /* RCTShadowTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTShadowTextField.m; path = Libraries/Text/RCTShadowTextField.m; sourceTree = "<group>"; };
+		90359A8B443ECB73C5465B2D9D27E708 /* RCTConvert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTConvert.m; sourceTree = "<group>"; };
+		90D347A1482DAD8A2AA7C9ECE9208B65 /* RCTDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTDeviceInfo.m; sourceTree = "<group>"; };
+		90F179F3B6601B90A72CB7C7B65816C4 /* RCTModalHostViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTModalHostViewController.h; sourceTree = "<group>"; };
+		9172C7B8AECE908985C82EED14A420F5 /* RCTWebSocketModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTWebSocketModule.m; path = Libraries/WebSocket/RCTWebSocketModule.m; sourceTree = "<group>"; };
+		91C739BB8A522709655A0EB4AF6CB2B2 /* RCTTransformAnimatedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTransformAnimatedNode.m; sourceTree = "<group>"; };
+		92A55197B91B6EA577975E77A19EB8F4 /* RCTMultiplicationAnimatedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTMultiplicationAnimatedNode.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95E10808AE383185555E1C7EBF90AD4A /* RCTUIManagerObserverCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTUIManagerObserverCoordinator.m; sourceTree = "<group>"; };
+		96ACD35903767C89DB8829D42AB67D42 /* RCTAppState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAppState.h; sourceTree = "<group>"; };
+		97C7F526662812C2ED605F054E9967EB /* RCTAdditionAnimatedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTAdditionAnimatedNode.m; sourceTree = "<group>"; };
+		98B73F75E5BDB54608DBFC6F723DDB25 /* RCTModuleData.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTModuleData.mm; sourceTree = "<group>"; };
+		98F8752F975A7E132C5513B0EFC06162 /* RCTValueAnimatedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTValueAnimatedNode.m; sourceTree = "<group>"; };
+		991248B6F2D595B787A36703F546A1FC /* RCTTextManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTTextManager.h; path = Libraries/Text/RCTTextManager.h; sourceTree = "<group>"; };
+		993EF4649515411E028FFC4D8816E99D /* RCTTransformAnimatedNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTransformAnimatedNode.h; sourceTree = "<group>"; };
+		99EBEBF5E6005F83FFC33E96D196F606 /* oss-compat-util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "oss-compat-util.h"; path = "ReactCommon/cxxreact/oss-compat-util.h"; sourceTree = "<group>"; };
+		9A881EBE681035DF877ED6D0F966E7B2 /* RCTFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTFont.h; sourceTree = "<group>"; };
+		9B35F5A550F19DE2A412F7BD38E0B782 /* RCTJSCExecutor.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTJSCExecutor.mm; sourceTree = "<group>"; };
+		9C32E43D191DE645C083835C6DC4D1F0 /* RCTLayoutAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTLayoutAnimation.m; sourceTree = "<group>"; };
+		9D006F9EEB3DB338A7F27D351C12B3A9 /* RCTImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTImageView.h; path = Libraries/Image/RCTImageView.h; sourceTree = "<group>"; };
+		9E26089DF38C1DA12193903A404A269C /* JSBundleType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSBundleType.h; path = ReactCommon/cxxreact/JSBundleType.h; sourceTree = "<group>"; };
+		9E319B0FAFCA1719EF6F65676A86B937 /* RCTParserUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTParserUtils.m; sourceTree = "<group>"; };
+		9F40D0682C4622E2D9F56B16F6DC1B2A /* RCTTabBarItemManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTabBarItemManager.m; sourceTree = "<group>"; };
+		9F4962CE218C88B7648B6414C052C908 /* RCTVibration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTVibration.h; path = Libraries/Vibration/RCTVibration.h; sourceTree = "<group>"; };
+		A239A82BA940E9E8C6FFE3A4C72C5A91 /* RCTModuleData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTModuleData.h; sourceTree = "<group>"; };
+		A24ED540BBC418E495F588FD5F64D6B7 /* RCTComponentData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTComponentData.h; sourceTree = "<group>"; };
+		A2789897259ACA926ED6748ADD03E93B /* React-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "React-dummy.m"; sourceTree = "<group>"; };
+		A2C0903E5BCD99BCB62F7ACF10620AE5 /* RCTLocationObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTLocationObserver.m; path = Libraries/Geolocation/RCTLocationObserver.m; sourceTree = "<group>"; };
+		A3AA0800A6FCE825D4AF15469E3E03E3 /* RCTAnimationUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTAnimationUtils.h; path = Libraries/NativeAnimation/RCTAnimationUtils.h; sourceTree = "<group>"; };
+		A4219E5B2E9B40964745D34749263227 /* RCTJSCErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTJSCErrorHandling.h; sourceTree = "<group>"; };
+		A43B9F1935992B7138F8D497198843CB /* RCTLocationObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTLocationObserver.h; path = Libraries/Geolocation/RCTLocationObserver.h; sourceTree = "<group>"; };
+		A548BF00E711375C95E0A31B0A0F1EF9 /* RCTI18nUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTI18nUtil.h; sourceTree = "<group>"; };
+		A7D0BB4F6EDA786C8DF8B0CC7B16658F /* RCTBatchedBridge.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTBatchedBridge.mm; sourceTree = "<group>"; };
+		A89EB775D84578FA80C1C565CB54BCF3 /* RCTSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSpringAnimation.h; sourceTree = "<group>"; };
+		A8F6EED77DDCA0D26A73A3AD3E8E7073 /* RCTHTTPRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTHTTPRequestHandler.h; path = Libraries/Network/RCTHTTPRequestHandler.h; sourceTree = "<group>"; };
+		A916EA504D0F85BB666FC41FBCB97545 /* JSCWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSCWrapper.h; path = ReactCommon/jschelpers/JSCWrapper.h; sourceTree = "<group>"; };
+		A925FDF7E18DCB52FF0428FEFE1AA09E /* RCTShadowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTShadowView.m; sourceTree = "<group>"; };
+		A934B7BC1F02D2E2CECD3EDFE07122D2 /* RCTRawTextManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTRawTextManager.m; path = Libraries/Text/RCTRawTextManager.m; sourceTree = "<group>"; };
+		AAB5A4341174EE9EA281B6ED58D98049 /* RCTTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTabBarItem.h; sourceTree = "<group>"; };
+		AB83E5AD38BF15667B6FDECD886E8DCF /* RCTStyleAnimatedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTStyleAnimatedNode.m; sourceTree = "<group>"; };
+		AB946431008ABE3A40DFE429FA307C9A /* RCTModuloAnimatedNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTModuloAnimatedNode.h; sourceTree = "<group>"; };
+		AC315493D2CC21399C4B35B91C689B3C /* RCTSwitchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSwitchManager.h; sourceTree = "<group>"; };
+		ACB2715C2B57FA3905052461C9C03E17 /* RCTDatePickerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTDatePickerManager.m; sourceTree = "<group>"; };
+		ADC27FACF748518A5829BFCAA8823C3E /* RCTExceptionsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTExceptionsManager.h; sourceTree = "<group>"; };
+		ADE1985EE56E51DAD95EAC531FD04ED5 /* RCTInvalidating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTInvalidating.h; sourceTree = "<group>"; };
+		AE63C49FAAF0B8070197E1C8EE9064A6 /* RCTEventEmitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTEventEmitter.h; sourceTree = "<group>"; };
+		AF62FCBC45B41D570A04E93143F114FE /* RCTRawTextManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTRawTextManager.h; path = Libraries/Text/RCTRawTextManager.h; sourceTree = "<group>"; };
+		B19EFA0F1DFBC60533D05C2A77FBEBBF /* RCTWebSocketObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTWebSocketObserver.m; path = Libraries/WebSocket/RCTWebSocketObserver.m; sourceTree = "<group>"; };
+		B22780A17816F7E4905540731C7A2669 /* RCTPerformanceLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTPerformanceLogger.h; sourceTree = "<group>"; };
+		B25632A98A5E06E5A50E33493D420DF9 /* RCTActivityIndicatorViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTActivityIndicatorViewManager.m; sourceTree = "<group>"; };
+		B276C6378FE1C7ACD0F180D150A89AFB /* RCTPerformanceLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTPerformanceLogger.m; sourceTree = "<group>"; };
+		B28655B2708FAEF055E2BA63095CBB39 /* RCTViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTViewManager.h; sourceTree = "<group>"; };
+		B36DF0C3C12DD802B6138D6F0A0D53ED /* RCTScrollContentViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTScrollContentViewManager.h; sourceTree = "<group>"; };
+		B397510992D6E9BFE70FFAE8F1653541 /* RCTTextManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTTextManager.m; path = Libraries/Text/RCTTextManager.m; sourceTree = "<group>"; };
+		B3C99D631446951B0CC3BAD970E97DEA /* RCTNavItemManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTNavItemManager.h; sourceTree = "<group>"; };
+		B4E28EDE3757166003FA7FB719A463E6 /* RCTImageShadowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTImageShadowView.m; path = Libraries/Image/RCTImageShadowView.m; sourceTree = "<group>"; };
+		B4E3AC1528D162145D99323382DD5E10 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		B53904570D86B24214FC494DC39A6A0B /* libPods-map.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-map.a"; path = "libPods-map.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53A15A241FD8AAFB51191B67D365185 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B5BFB3D0B1DA9EA8D8A641DE5E8D5FAA /* RCTNetInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTNetInfo.m; path = Libraries/Network/RCTNetInfo.m; sourceTree = "<group>"; };
+		B5C7684102DDF890BE34A1F340DC5CF8 /* RCTUIManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTUIManager.m; sourceTree = "<group>"; };
+		B5FEAEA083FE96C138F43E4F1C085806 /* RCTTextInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTTextInput.h; path = Libraries/Text/RCTTextInput.h; sourceTree = "<group>"; };
+		B604EA72CD76C6667C2045ED25606342 /* RCTNavigator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTNavigator.h; sourceTree = "<group>"; };
+		B6A59A060C008AC23A840A86D5ED34EB /* RCTSRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTSRWebSocket.h; path = Libraries/WebSocket/RCTSRWebSocket.h; sourceTree = "<group>"; };
+		B6F4AAC05D14E337B9391F85AE582020 /* RCTEventDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTEventDispatcher.m; sourceTree = "<group>"; };
+		B8F18F752E737666419AA22573857D09 /* RCTImageStoreManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTImageStoreManager.m; path = Libraries/Image/RCTImageStoreManager.m; sourceTree = "<group>"; };
+		BAAB767EF9D3F7A90708EC033DC06D4E /* RCTAsyncLocalStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAsyncLocalStorage.h; sourceTree = "<group>"; };
+		BB58F2AC1A6338F3E41D04AE6D04811A /* RCTPropsAnimatedNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTPropsAnimatedNode.h; sourceTree = "<group>"; };
+		BBA01334828D9728C220A0EFB75DF3BD /* RCTShadowRawText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTShadowRawText.h; path = Libraries/Text/RCTShadowRawText.h; sourceTree = "<group>"; };
+		BBC02791746DF7D31E898AD06E34C3F1 /* RCTDisplayLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTDisplayLink.h; sourceTree = "<group>"; };
+		BBD1B65370EEBD2E58F3299B9A588196 /* RCTKeyboardObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTKeyboardObserver.m; sourceTree = "<group>"; };
+		BCFAD04CE8C5B8F61D0FAF279250D478 /* RCTScrollableProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTScrollableProtocol.h; sourceTree = "<group>"; };
+		BDF072962B36A6BE35D6685C7E5B5E8E /* RCTReloadCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTReloadCommand.m; sourceTree = "<group>"; };
+		BEDC590542D8DBDEDC0B40120A0ADC93 /* RCTSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSwitch.h; sourceTree = "<group>"; };
+		BEFE29D1C6A3718EB519F64826B287CE /* RCTMultipartStreamReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTMultipartStreamReader.h; sourceTree = "<group>"; };
+		BF6C3162D0B1CD8A62BFDD059F87DC3D /* RCTTextViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTTextViewManager.m; path = Libraries/Text/RCTTextViewManager.m; sourceTree = "<group>"; };
+		C10CAFB22C4971B39F6CD461C87967D5 /* RCTSliderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSliderManager.h; sourceTree = "<group>"; };
+		C1C1226A07BB55A151607B0EFDA94DE1 /* RCTShadowRawText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTShadowRawText.m; path = Libraries/Text/RCTShadowRawText.m; sourceTree = "<group>"; };
+		C2151DDDB84733EE47A07B361804CE31 /* RCTUITextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTUITextView.h; path = Libraries/Text/RCTUITextView.h; sourceTree = "<group>"; };
+		C313374F4D5C9A0738268CCF1EC2E4C4 /* RCTText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTText.m; path = Libraries/Text/RCTText.m; sourceTree = "<group>"; };
+		C33A8C8B7A87BFFE485AECE612F6BC59 /* RCTProfileTrampoline-i386.S */ = {isa = PBXFileReference; includeInIndex = 1; path = "RCTProfileTrampoline-i386.S"; sourceTree = "<group>"; };
+		C37219683D5328763AA1586B488CDD3B /* RCTTabBarItemManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTabBarItemManager.h; sourceTree = "<group>"; };
+		C3F131C891205357C70457A35B26B37B /* RCTRedBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTRedBox.m; sourceTree = "<group>"; };
+		C43DB1C59D64B934D96631B3D4132AE8 /* RCTWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTWebView.m; sourceTree = "<group>"; };
+		C4969E08DE946658056A980539F108F4 /* RCTLog.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTLog.mm; sourceTree = "<group>"; };
+		C53CC5DF6BFABA517DC22691280B7852 /* RCTImageBlurUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTImageBlurUtils.h; path = Libraries/Image/RCTImageBlurUtils.h; sourceTree = "<group>"; };
+		C70940C77AE3375D1DA78B998DC49819 /* RCTBundleURLProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTBundleURLProvider.m; sourceTree = "<group>"; };
+		C8627E4C953051C4CCAC5C0931E58178 /* InspectorInterfaces.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = InspectorInterfaces.cpp; path = ReactCommon/jschelpers/InspectorInterfaces.cpp; sourceTree = "<group>"; };
+		C870C0C8C1A1E32EC5E5884C0850F526 /* RCTBackedTextInputViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTBackedTextInputViewProtocol.h; path = Libraries/Text/RCTBackedTextInputViewProtocol.h; sourceTree = "<group>"; };
+		C8E0E53791E0DADFEC08DF77B82691ED /* RCTLinkingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTLinkingManager.h; path = Libraries/LinkingIOS/RCTLinkingManager.h; sourceTree = "<group>"; };
+		C91790F144565CA72B1E2EF2C3651555 /* RCTLayoutAnimationGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTLayoutAnimationGroup.m; sourceTree = "<group>"; };
+		C917CFFDEF7D0787171E7EA5BC96B8F8 /* RCTTVNavigationEventEmitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTVNavigationEventEmitter.m; sourceTree = "<group>"; };
+		C944AAE818322B794C872CFA949C24E0 /* RCTNetworkTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTNetworkTask.h; path = Libraries/Network/RCTNetworkTask.h; sourceTree = "<group>"; };
+		C94EB4FA786E84E9560C9773340199E1 /* RCTAppState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTAppState.m; sourceTree = "<group>"; };
+		C96B0878A60FF1664FDDEEBB27BC6016 /* RCTAnimatedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTAnimatedNode.m; sourceTree = "<group>"; };
+		C991D7FC514D4AA99987B474BE4EDC97 /* RCTRootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRootView.h; sourceTree = "<group>"; };
+		CA392CA89004078CD9F46AFA183F641C /* RCTRootShadowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTRootShadowView.m; sourceTree = "<group>"; };
+		CBBC3BE9D71883284DB25F91E1747C5B /* RCTI18nManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTI18nManager.m; sourceTree = "<group>"; };
+		CBC3F89AFE9B70F01D93B1511EAF19A6 /* JavaScriptCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JavaScriptCore.h; path = ReactCommon/jschelpers/JavaScriptCore.h; sourceTree = "<group>"; };
+		CC2B8D1E1C0CF9FE70B3B7FBAE9D1503 /* RCTImageUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTImageUtils.h; path = Libraries/Image/RCTImageUtils.h; sourceTree = "<group>"; };
+		CD1666889EBA916B6888D4F29E231ED2 /* RCTWebSocketExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTWebSocketExecutor.m; path = Libraries/WebSocket/RCTWebSocketExecutor.m; sourceTree = "<group>"; };
+		CD9ED0208B9C92F2EC429D1D6EF47C18 /* RCTDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTDefines.h; sourceTree = "<group>"; };
+		CDFCB7E90DE9956498CBF6AF9107D832 /* RCTJavaScriptLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTJavaScriptLoader.h; sourceTree = "<group>"; };
+		CEEF422DD8E15E5A29DB5A58C1B2AA0E /* RCTEventAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTEventAnimation.m; sourceTree = "<group>"; };
+		CEF4F69E4E18CCEE274AEFA04C3CB17E /* RCTSwitchManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSwitchManager.m; sourceTree = "<group>"; };
+		CF5D7310253738B3765D3B88A32FC8EC /* RCTReloadCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTReloadCommand.h; sourceTree = "<group>"; };
+		CF7D087ABB3C6E2E789114EA6453DC84 /* RCTBorderStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTBorderStyle.h; sourceTree = "<group>"; };
+		CF9AAECEE2D24D6900F978CD159EDFDF /* RCTBridge+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCTBridge+Private.h"; sourceTree = "<group>"; };
+		D08A9791A34C7B5D41EA973DDBD10EAE /* RCTMultiplicationAnimatedNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTMultiplicationAnimatedNode.h; sourceTree = "<group>"; };
+		D3AD7BF466BC64CDBF6705F783C896AC /* RCTTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTabBar.m; sourceTree = "<group>"; };
+		D3B70ADDC78CE1305489FC710B915D46 /* RCTNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTNetworking.h; path = Libraries/Network/RCTNetworking.h; sourceTree = "<group>"; };
+		D3EB6FF59ED544F71802FC6DA4495C00 /* RCTNetworking.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RCTNetworking.mm; path = Libraries/Network/RCTNetworking.mm; sourceTree = "<group>"; };
+		D455188D189CFB12FCD0E2B86F41EAA6 /* RCTInterpolationAnimatedNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTInterpolationAnimatedNode.h; sourceTree = "<group>"; };
+		D60964F682558D2AFD4D96375CB743E9 /* RCTNavItemManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTNavItemManager.m; sourceTree = "<group>"; };
+		D6358C5AD725FC7738AF3180C44D23FD /* RCTAnimationUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTAnimationUtils.m; path = Libraries/NativeAnimation/RCTAnimationUtils.m; sourceTree = "<group>"; };
+		D666572DB255537B54501DE910EC3DD8 /* RCTScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTScrollView.h; sourceTree = "<group>"; };
+		D796B7D9C322BD86E415FD82CF2934F4 /* RCTErrorCustomizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTErrorCustomizer.h; sourceTree = "<group>"; };
+		D8C66D8776C6AE3E51D366499B1D2E84 /* RCTUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTUtils.m; sourceTree = "<group>"; };
+		D9AF3237DD5AA057E41A3B3FD811AF5F /* RCTRootContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTRootContentView.m; sourceTree = "<group>"; };
+		D9E3EBC9914CDF83CC1EF5DC87537814 /* RCTDivisionAnimatedNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTDivisionAnimatedNode.h; sourceTree = "<group>"; };
+		DA305A15440E4711BCCEB2B4408F8F72 /* RCTDivisionAnimatedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTDivisionAnimatedNode.m; sourceTree = "<group>"; };
+		DA4B587088684C893B63F5BCB8C29633 /* RCTTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTTextView.m; path = Libraries/Text/RCTTextView.m; sourceTree = "<group>"; };
+		DBD546BF3DBFFA45D8BB6EBAF374E150 /* RCTStatusBarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTStatusBarManager.h; sourceTree = "<group>"; };
+		DBD76ED26E92B9F8A60F2E4275C26BE5 /* RCTImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTImageLoader.m; path = Libraries/Image/RCTImageLoader.m; sourceTree = "<group>"; };
+		DD786121C5064996BF970CD65415A651 /* RCTConvert+Text.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RCTConvert+Text.m"; path = "Libraries/Text/RCTConvert+Text.m"; sourceTree = "<group>"; };
+		DD89D1284B70EA3F4B8ECE060554F194 /* RCTBorderDrawing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTBorderDrawing.h; sourceTree = "<group>"; };
+		DE0A31EBE439F7D9CA71073C91641C40 /* RCTModuleMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTModuleMethod.h; sourceTree = "<group>"; };
+		DF6813A81834A2EDFF105D4B7707D8D3 /* RCTSegmentedControlManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSegmentedControlManager.h; sourceTree = "<group>"; };
+		E07C5A5C27F324A80A9CA2B97040838B /* RCTNavItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTNavItem.h; sourceTree = "<group>"; };
+		E18EC36BA6EA072111AEA480DD6825B6 /* RCTFrameAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTFrameAnimation.m; sourceTree = "<group>"; };
+		E19D8363BC32965401CB2B8BEEE66409 /* RCTStyleAnimatedNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTStyleAnimatedNode.h; sourceTree = "<group>"; };
+		E2814BFA74E7DA624668BF7242F523BF /* UIView+React.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+React.m"; sourceTree = "<group>"; };
+		E565DFAD1A6269337849A4DFABAA1AB9 /* RCTImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTImageCache.h; path = Libraries/Image/RCTImageCache.h; sourceTree = "<group>"; };
+		E9930CC529645CF92C5567756B6E66B8 /* RCTWebSocketModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTWebSocketModule.h; path = Libraries/WebSocket/RCTWebSocketModule.h; sourceTree = "<group>"; };
+		E9C9D01492115A842D862745D66EA5D7 /* RCTTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTTextField.m; path = Libraries/Text/RCTTextField.m; sourceTree = "<group>"; };
+		EA76FD094F1C63592C188E6AA9A9C19F /* RCTDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTDeviceInfo.h; sourceTree = "<group>"; };
+		EB1DDA425A4642299E0149CD8321F627 /* RCTPointerEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTPointerEvents.h; sourceTree = "<group>"; };
+		EB3114FA558661801B768DD94A8941A1 /* RCTImageViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTImageViewManager.h; path = Libraries/Image/RCTImageViewManager.h; sourceTree = "<group>"; };
+		EB9E980CD29E8992E02E5EA67C6F6A59 /* RCTTVRemoteHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTVRemoteHandler.m; sourceTree = "<group>"; };
+		EC4FFA5F3FC09374E3068342E72AC7A9 /* RCTAlertManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTAlertManager.m; sourceTree = "<group>"; };
+		ED3F200022EFC914ECAE3CB3D0276004 /* RCTSRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTSRWebSocket.m; path = Libraries/WebSocket/RCTSRWebSocket.m; sourceTree = "<group>"; };
+		ED86CCDA71F3885E574B5CDCB6610A33 /* RCTVibration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTVibration.m; path = Libraries/Vibration/RCTVibration.m; sourceTree = "<group>"; };
+		EEE497E2B35CEFE0BA569C656BF3C5D0 /* RCTKeyCommands.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTKeyCommands.h; sourceTree = "<group>"; };
+		EEFB6FD6EDAC7E51C3B4CAE34F41D5DB /* RCTBridgeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTBridgeDelegate.h; sourceTree = "<group>"; };
+		EF1EEF52933642CF0EBBC642E8DEF0F5 /* RCTRefreshControlManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRefreshControlManager.h; sourceTree = "<group>"; };
+		EFEF9817EA6779E3BB511880395D61DA /* RCTImageViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTImageViewManager.m; path = Libraries/Image/RCTImageViewManager.m; sourceTree = "<group>"; };
+		F1F9A9EB27EF92679B2A4830D8E3313F /* RCTSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSwitch.m; sourceTree = "<group>"; };
+		F2FEE3144093D1D3DFB6FE6A5D966526 /* RCTShadowTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTShadowTextView.m; path = Libraries/Text/RCTShadowTextView.m; sourceTree = "<group>"; };
+		F320D64C7EE063543D9D05EE7A97ECB3 /* RCTActivityIndicatorViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTActivityIndicatorViewManager.h; sourceTree = "<group>"; };
+		F41FA7944FF6029FF1704DA2F1C22E5D /* RCTTVRemoteHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTVRemoteHandler.h; sourceTree = "<group>"; };
+		F4E90E42E4607446647FCF82110D7BB6 /* RCTJavaScriptExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTJavaScriptExecutor.h; sourceTree = "<group>"; };
+		F5293B136798E18DF837F2E4A26DE6E4 /* RCTTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTabBar.h; sourceTree = "<group>"; };
+		F582FDF6FC0672305893AB760FFCC448 /* RCTShadowText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTShadowText.m; path = Libraries/Text/RCTShadowText.m; sourceTree = "<group>"; };
+		F60E0BAE2B143822FFACFD3FA2BA7BD2 /* RCTTextViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTTextViewManager.h; path = Libraries/Text/RCTTextViewManager.h; sourceTree = "<group>"; };
+		F742A32A2BA91FF67BA7456BA1CE0C57 /* YGEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGEnums.h; path = yoga/YGEnums.h; sourceTree = "<group>"; };
+		F80E810F11622F8AC5D096876CBC3BCA /* RCTDataRequestHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTDataRequestHandler.m; path = Libraries/Network/RCTDataRequestHandler.m; sourceTree = "<group>"; };
+		F819A801704DB25C2CE4E676F144EE8D /* RCTTouchHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTouchHandler.m; sourceTree = "<group>"; };
+		F8536AC08FB5239B25C2FFD124A2C0C3 /* RCTUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTUtils.h; sourceTree = "<group>"; };
+		FACCF2D38C9088210F01D3CF95177C76 /* RCTWebSocketObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTWebSocketObserver.h; path = Libraries/WebSocket/RCTWebSocketObserver.h; sourceTree = "<group>"; };
+		FB187A445B7C3F35A0EF833975691C4E /* RCTUITextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTUITextView.m; path = Libraries/Text/RCTUITextView.m; sourceTree = "<group>"; };
+		FC03044C5E4DD2C6D27DD4309F8D2309 /* UIView+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Private.h"; sourceTree = "<group>"; };
+		FE026D5FF2E0B06D45E94CCA9EB9CEAF /* RCTShadowText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTShadowText.h; path = Libraries/Text/RCTShadowText.h; sourceTree = "<group>"; };
+		FE17A45578E9B62B36F94812DF1C0FD8 /* RCTText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTText.h; path = Libraries/Text/RCTText.h; sourceTree = "<group>"; };
+		FEAEA556B9A36F7309C4442291E803F4 /* RCTLayoutAnimationGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTLayoutAnimationGroup.h; sourceTree = "<group>"; };
+		FED99F6627CF7214DD7CF4ABC2A39F0C /* libYoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYoga.a; path = libYoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF3D81642E28995276B706303B5AE10 /* RCTAnimationType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAnimationType.h; sourceTree = "<group>"; };
+		FF2AE4A220C49DF356CDF6CDAAE37C82 /* Yoga-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Yoga-dummy.m"; sourceTree = "<group>"; };
+		FFDBF8E0531122CFB84D335E1DA44E21 /* RCTProfileTrampoline-arm64.S */ = {isa = PBXFileReference; includeInIndex = 1; path = "RCTProfileTrampoline-arm64.S"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CA51A9F48CD0DB74B42C5D8B329D55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AA819A08CFF5B5CC224FA230DC57B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75BB00553A475947BCDB023717F82A3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC89628D7E18977830578FC32134FEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B9D32CB55552A42914B53189B19A75 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A278A47212BCC2529276E28D95DFB0EC /* React */,
+				5245C65EA3A24CF36A64E943ADCD2EDC /* Yoga */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0B5DE521D36089CDED18A6708C41BFB7 /* RCTNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				2449E0398F7432B09F0285A2EF14EC3D /* RCTDataRequestHandler.h */,
+				F80E810F11622F8AC5D096876CBC3BCA /* RCTDataRequestHandler.m */,
+				2873F24F2F6C01420CECAE7E3F7AF035 /* RCTFileRequestHandler.h */,
+				3A38992ABCDDBB615A03AA08B6F3FD78 /* RCTFileRequestHandler.m */,
+				A8F6EED77DDCA0D26A73A3AD3E8E7073 /* RCTHTTPRequestHandler.h */,
+				83160627440C96718E677B8E2D09A570 /* RCTHTTPRequestHandler.mm */,
+				2263180F7A1D14D4A7CEDD9C98900340 /* RCTNetInfo.h */,
+				B5BFB3D0B1DA9EA8D8A641DE5E8D5FAA /* RCTNetInfo.m */,
+				D3B70ADDC78CE1305489FC710B915D46 /* RCTNetworking.h */,
+				D3EB6FF59ED544F71802FC6DA4495C00 /* RCTNetworking.mm */,
+				C944AAE818322B794C872CFA949C24E0 /* RCTNetworkTask.h */,
+				817F6B06A8F1C4E762FB1F513A3E5254 /* RCTNetworkTask.m */,
+			);
+			name = RCTNetwork;
+			sourceTree = "<group>";
+		};
+		282BF0389E3C2729EB48E069474566D8 /* BatchedBridge */ = {
+			isa = PBXGroup;
+			children = (
+				907C46D850106239A261E450E0C60FEF /* Base */,
+				FCBCAF36274A74BDCD56732C3C4C7B38 /* Executors */,
+			);
+			name = BatchedBridge;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DB625A01D251B3FB0B216A3C37A0033 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48D21EBCD9FEC2FB88AC8FBA46892F41 /* RCTGeolocation */ = {
+			isa = PBXGroup;
+			children = (
+				A43B9F1935992B7138F8D497198843CB /* RCTLocationObserver.h */,
+				A2C0903E5BCD99BCB62F7ACF10620AE5 /* RCTLocationObserver.m */,
+			);
+			name = RCTGeolocation;
+			sourceTree = "<group>";
+		};
+		491D981F404EAFCE640C8689454A298B /* jschelpers_legacy */ = {
+			isa = PBXGroup;
+			children = (
+				C8627E4C953051C4CCAC5C0931E58178 /* InspectorInterfaces.cpp */,
+				3A48E486EF0DB993D5341BDA964E540B /* InspectorInterfaces.h */,
+				CBC3F89AFE9B70F01D93B1511EAF19A6 /* JavaScriptCore.h */,
+				7211D6B01B12FB087EEAB2DB781E1A95 /* JSCWrapper.cpp */,
+				A916EA504D0F85BB666FC41FBCB97545 /* JSCWrapper.h */,
+				66F84C77776B8B458204B45833EEAB69 /* systemJSCWrapper.cpp */,
+			);
+			name = jschelpers_legacy;
+			sourceTree = "<group>";
+		};
+		4EE917039502DAD4C36248A39A9790DB /* RCTSettings */ = {
+			isa = PBXGroup;
+			children = (
+				43CE7C6443885565E50C9914B0FE6432 /* RCTSettingsManager.h */,
+				78BECE66B64DB1C58AB0C28F405C2364 /* RCTSettingsManager.m */,
+			);
+			name = RCTSettings;
+			sourceTree = "<group>";
+		};
+		5245C65EA3A24CF36A64E943ADCD2EDC /* Yoga */ = {
+			isa = PBXGroup;
+			children = (
+				1015AD9682B2617E259B89C8A2C12C7F /* YGEnums.c */,
+				F742A32A2BA91FF67BA7456BA1CE0C57 /* YGEnums.h */,
+				2300366B8099BEAE8BD6D82C4BD3E56E /* YGMacros.h */,
+				0697F8985B004FDC858ECDDB900335A7 /* YGNodeList.c */,
+				39120FBF87916937ABB47D5A71EA6C44 /* YGNodeList.h */,
+				5516DA9675285CEBF34CB3ED966C443A /* Yoga.c */,
+				7C4BA7E3F7F82D3D25048255E7972C4B /* Yoga.h */,
+				E6366CDDDF97870B0159C70750206A35 /* Support Files */,
+			);
+			name = Yoga;
+			path = "../../node_modules/react-native/ReactCommon/yoga";
+			sourceTree = "<group>";
+		};
+		5DB625A01D251B3FB0B216A3C37A0033 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B53A15A241FD8AAFB51191B67D365185 /* Foundation.framework */,
+				B4E3AC1528D162145D99323382DD5E10 /* JavaScriptCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FC46C83D4BA544CA625096AD6270805 /* cxxreact_legacy */ = {
+			isa = PBXGroup;
+			children = (
+				881910AD2D747983B7C377BF1CFC170F /* JSBundleType.cpp */,
+				9E26089DF38C1DA12193903A404A269C /* JSBundleType.h */,
+				99EBEBF5E6005F83FFC33E96D196F606 /* oss-compat-util.h */,
+			);
+			name = cxxreact_legacy;
+			sourceTree = "<group>";
+		};
+		6501DFA10B5330DA7D870DB8263C4ADC /* RCTActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				808BB2DC9FE5D47A5CAD157077E29543 /* RCTActionSheetManager.h */,
+				816F2C785FCB2599115D6EA0932011FC /* RCTActionSheetManager.m */,
+			);
+			name = RCTActionSheet;
+			sourceTree = "<group>";
+		};
+		735C7FF6ABB5650F28FE73E7012A5575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B53904570D86B24214FC494DC39A6A0B /* libPods-map.a */,
+				373A1B57AD241BD43BD8417865C3CC31 /* libReact.a */,
+				FED99F6627CF7214DD7CF4ABC2A39F0C /* libYoga.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C79A9742A1ADD0CAE3705D7037F277B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D9DE0E2B92EC5CB5F76EEF39837E7C5 /* React.xcconfig */,
+				A2789897259ACA926ED6748ADD03E93B /* React-dummy.m */,
+				36FFD8C16BEDB48B72FFAA0696D881B4 /* React-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../ios/Pods/Target Support Files/React";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				04B9D32CB55552A42914B53189B19A75 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				735C7FF6ABB5650F28FE73E7012A5575 /* Products */,
+				E4E6CDC2C85BCB37118677ACA0F38D0F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F10109048E6D1E38ACD5D356580AE11 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				72FA8D218BBC0D3EF8E09638742809D7 /* RCTAdditionAnimatedNode.h */,
+				97C7F526662812C2ED605F054E9967EB /* RCTAdditionAnimatedNode.m */,
+				37C9CED5776B303F91AE2CD4DEC653EB /* RCTAnimatedNode.h */,
+				C96B0878A60FF1664FDDEEBB27BC6016 /* RCTAnimatedNode.m */,
+				82F1A307226407C9E7A1CBCD2FBCCE64 /* RCTDiffClampAnimatedNode.h */,
+				793DFC4E94CBF257F5A611C8A61BA87F /* RCTDiffClampAnimatedNode.m */,
+				D9E3EBC9914CDF83CC1EF5DC87537814 /* RCTDivisionAnimatedNode.h */,
+				DA305A15440E4711BCCEB2B4408F8F72 /* RCTDivisionAnimatedNode.m */,
+				D455188D189CFB12FCD0E2B86F41EAA6 /* RCTInterpolationAnimatedNode.h */,
+				4B783CEF5637EEC8D0C6EC80CAE083FB /* RCTInterpolationAnimatedNode.m */,
+				AB946431008ABE3A40DFE429FA307C9A /* RCTModuloAnimatedNode.h */,
+				7008FB48252C59A54D360B5F6454B4DD /* RCTModuloAnimatedNode.m */,
+				D08A9791A34C7B5D41EA973DDBD10EAE /* RCTMultiplicationAnimatedNode.h */,
+				92A55197B91B6EA577975E77A19EB8F4 /* RCTMultiplicationAnimatedNode.m */,
+				BB58F2AC1A6338F3E41D04AE6D04811A /* RCTPropsAnimatedNode.h */,
+				505400F0613FFCC766DF5B092F8B8B0D /* RCTPropsAnimatedNode.m */,
+				E19D8363BC32965401CB2B8BEEE66409 /* RCTStyleAnimatedNode.h */,
+				AB83E5AD38BF15667B6FDECD886E8DCF /* RCTStyleAnimatedNode.m */,
+				993EF4649515411E028FFC4D8816E99D /* RCTTransformAnimatedNode.h */,
+				91C739BB8A522709655A0EB4AF6CB2B2 /* RCTTransformAnimatedNode.m */,
+				0A952D4A77B1900F1CD1CD8CA949EAE1 /* RCTValueAnimatedNode.h */,
+				98F8752F975A7E132C5513B0EFC06162 /* RCTValueAnimatedNode.m */,
+			);
+			name = Nodes;
+			path = Libraries/NativeAnimation/Nodes;
+			sourceTree = "<group>";
+		};
+		825A398B6652985C0056EBB2B607F1F3 /* Pods-map */ = {
+			isa = PBXGroup;
+			children = (
+				1B066CB7435C300E38525058832D47C5 /* Pods-map-acknowledgements.markdown */,
+				517BC1D43D849F7E4CCAFFB0B6E7FA0E /* Pods-map-acknowledgements.plist */,
+				7976FF42C0034027B885E3D9A85B608E /* Pods-map-dummy.m */,
+				65B804BD9C6C4433571361F6D9200FB4 /* Pods-map-frameworks.sh */,
+				80D0E3D7E09A88932763BD272C7402C4 /* Pods-map-resources.sh */,
+				6562A59AF7C577ADB5ECB6F141BD8BAE /* Pods-map.debug.xcconfig */,
+				5309905DC7CB86644DE9ACDFF0D64850 /* Pods-map.release.xcconfig */,
+			);
+			name = "Pods-map";
+			path = "Target Support Files/Pods-map";
+			sourceTree = "<group>";
+		};
+		83FEB0667D71FC9DA7D690249592BD7C /* Drivers */ = {
+			isa = PBXGroup;
+			children = (
+				068E74855F7FEBAA9722AF2329985EE6 /* RCTAnimationDriver.h */,
+				2C4AB0B421360870066D2AA146AECC57 /* RCTDecayAnimation.h */,
+				5B60DCF6C8ABCACCEADA8D17C1431275 /* RCTDecayAnimation.m */,
+				50F57D9C151C4C12234EC9FF448150F5 /* RCTEventAnimation.h */,
+				CEEF422DD8E15E5A29DB5A58C1B2AA0E /* RCTEventAnimation.m */,
+				10EA3022D397C279C355935287619800 /* RCTFrameAnimation.h */,
+				E18EC36BA6EA072111AEA480DD6825B6 /* RCTFrameAnimation.m */,
+				A89EB775D84578FA80C1C565CB54BCF3 /* RCTSpringAnimation.h */,
+				4369669232CC8E03225CE05008BFDE54 /* RCTSpringAnimation.m */,
+			);
+			name = Drivers;
+			path = Libraries/NativeAnimation/Drivers;
+			sourceTree = "<group>";
+		};
+		8DDF11F704242CEF9B7AA5F419CC5F00 /* RCTAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A3AA0800A6FCE825D4AF15469E3E03E3 /* RCTAnimationUtils.h */,
+				D6358C5AD725FC7738AF3180C44D23FD /* RCTAnimationUtils.m */,
+				06657444FAD50DEBE2ADB557215F4B73 /* RCTNativeAnimatedModule.h */,
+				8266B8CE300EE33576E3E7814D276CFE /* RCTNativeAnimatedModule.m */,
+				8D8F0F13411A4FFD6F2F026609E47387 /* RCTNativeAnimatedNodesManager.h */,
+				2633E1DB6F18F6A69AC192A88C3278CC /* RCTNativeAnimatedNodesManager.m */,
+				83FEB0667D71FC9DA7D690249592BD7C /* Drivers */,
+				7F10109048E6D1E38ACD5D356580AE11 /* Nodes */,
+			);
+			name = RCTAnimation;
+			sourceTree = "<group>";
+		};
+		8E8FF04E20A769E23031B4734151955A /* RCTWebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				761CAD85A312DC11072348678DFC4040 /* RCTReconnectingWebSocket.h */,
+				549B20237206A1FEE08267560BD2AFCC /* RCTReconnectingWebSocket.m */,
+				B6A59A060C008AC23A840A86D5ED34EB /* RCTSRWebSocket.h */,
+				ED3F200022EFC914ECAE3CB3D0276004 /* RCTSRWebSocket.m */,
+				2E418291F73074BE381AD3DE0E3A7EE8 /* RCTWebSocketExecutor.h */,
+				CD1666889EBA916B6888D4F29E231ED2 /* RCTWebSocketExecutor.m */,
+				E9930CC529645CF92C5567756B6E66B8 /* RCTWebSocketModule.h */,
+				9172C7B8AECE908985C82EED14A420F5 /* RCTWebSocketModule.m */,
+				FACCF2D38C9088210F01D3CF95177C76 /* RCTWebSocketObserver.h */,
+				B19EFA0F1DFBC60533D05C2A77FBEBBF /* RCTWebSocketObserver.m */,
+			);
+			name = RCTWebSocket;
+			sourceTree = "<group>";
+		};
+		907C46D850106239A261E450E0C60FEF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A7D0BB4F6EDA786C8DF8B0CC7B16658F /* RCTBatchedBridge.mm */,
+			);
+			name = Base;
+			path = React/Base;
+			sourceTree = "<group>";
+		};
+		9FA5087E30566F654EA6CC37776E58A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				718B4FA939F134816148EC41619E0442 /* RCTActivityIndicatorView.h */,
+				5E3D77B332F12FBDFFF33D8B0F29B6FA /* RCTActivityIndicatorView.m */,
+				F320D64C7EE063543D9D05EE7A97ECB3 /* RCTActivityIndicatorViewManager.h */,
+				B25632A98A5E06E5A50E33493D420DF9 /* RCTActivityIndicatorViewManager.m */,
+				FEF3D81642E28995276B706303B5AE10 /* RCTAnimationType.h */,
+				788207DD7256D3AEF56E57D9D5312769 /* RCTAutoInsetsProtocol.h */,
+				DD89D1284B70EA3F4B8ECE060554F194 /* RCTBorderDrawing.h */,
+				1032A056731C08F9AC64706ED20AEE54 /* RCTBorderDrawing.m */,
+				CF7D087ABB3C6E2E789114EA6453DC84 /* RCTBorderStyle.h */,
+				6B4DDD1C6F28E2007DA0090E1ECC3A10 /* RCTComponent.h */,
+				A24ED540BBC418E495F588FD5F64D6B7 /* RCTComponentData.h */,
+				3ABF1E1013354CFBCE2F18B588BF63FB /* RCTComponentData.m */,
+				8E8DD3E2971216282DB8CB944B01D621 /* RCTConvert+CoreLocation.h */,
+				6D646BA937F582E1AF468F26C85FBE28 /* RCTConvert+CoreLocation.m */,
+				58D4E8F6A03F21387241FCE7958A66B2 /* RCTConvert+Transform.h */,
+				84F6E30AD7B66B59110059973D35E400 /* RCTConvert+Transform.m */,
+				4BBC7A4A55031D2210F3FC85C2EEBD3D /* RCTDatePicker.h */,
+				3270ADF18DEF01744E76FFE39CB14EF2 /* RCTDatePicker.m */,
+				6552F0F9FDC67B45DE9B3919829DF225 /* RCTDatePickerManager.h */,
+				ACB2715C2B57FA3905052461C9C03E17 /* RCTDatePickerManager.m */,
+				9A881EBE681035DF877ED6D0F966E7B2 /* RCTFont.h */,
+				3220F6D99BA810977E77A40E362E2104 /* RCTFont.mm */,
+				280127A234ACFCE8BBB9B0B27C51794E /* RCTModalHostView.h */,
+				2111ED1DADCBAF95E37E0A106EB36E52 /* RCTModalHostView.m */,
+				90F179F3B6601B90A72CB7C7B65816C4 /* RCTModalHostViewController.h */,
+				3233BE5538336F30381F5E199453CB50 /* RCTModalHostViewController.m */,
+				2263F0BF6D8F6991A20F8CCB4EEE4988 /* RCTModalHostViewManager.h */,
+				18596725E5E5928052A51330BC80A859 /* RCTModalHostViewManager.m */,
+				B604EA72CD76C6667C2045ED25606342 /* RCTNavigator.h */,
+				6D8015FBFD83F4603BBC1F8A34F0F586 /* RCTNavigator.m */,
+				07C6B9AB3C45613DF1113710E58D3BDC /* RCTNavigatorManager.h */,
+				12F872DFFAF4B5B55FDAE94A9CADAD23 /* RCTNavigatorManager.m */,
+				E07C5A5C27F324A80A9CA2B97040838B /* RCTNavItem.h */,
+				5DB413DE1A0B3DA76017AF677A5988E5 /* RCTNavItem.m */,
+				B3C99D631446951B0CC3BAD970E97DEA /* RCTNavItemManager.h */,
+				D60964F682558D2AFD4D96375CB743E9 /* RCTNavItemManager.m */,
+				3994387B09EB545E7B1A8998DD6461B3 /* RCTPicker.h */,
+				56938844A93C91408E8EDC549DAEC81E /* RCTPicker.m */,
+				508AB555D87D32DE1D7C7FCED5024516 /* RCTPickerManager.h */,
+				466E4BA3C51A9247094E34CA3BDDC3F8 /* RCTPickerManager.m */,
+				EB1DDA425A4642299E0149CD8321F627 /* RCTPointerEvents.h */,
+				7E929E21ABE3C0DD577165833C66961C /* RCTProgressViewManager.h */,
+				408C7B302559F76B4CB64D929A85B303 /* RCTProgressViewManager.m */,
+				56047A3A3CAE25AB09EC554FEA4AA5CC /* RCTRefreshControl.h */,
+				3C9611BDAA802FEC7E3121544545AB50 /* RCTRefreshControl.m */,
+				EF1EEF52933642CF0EBBC642E8DEF0F5 /* RCTRefreshControlManager.h */,
+				2277A2BDB31858875CEC239863195213 /* RCTRefreshControlManager.m */,
+				1560C83F43C21C06C8BDB5DBC177B8CD /* RCTRootShadowView.h */,
+				CA392CA89004078CD9F46AFA183F641C /* RCTRootShadowView.m */,
+				BCFAD04CE8C5B8F61D0FAF279250D478 /* RCTScrollableProtocol.h */,
+				4312EBE009293A720FE7F8F8CC631906 /* RCTScrollContentShadowView.h */,
+				591583601D26CBC7AAD105D0DB933EB4 /* RCTScrollContentShadowView.m */,
+				B36DF0C3C12DD802B6138D6F0A0D53ED /* RCTScrollContentViewManager.h */,
+				41165D6C7943808BA8011D4DB6318834 /* RCTScrollContentViewManager.m */,
+				D666572DB255537B54501DE910EC3DD8 /* RCTScrollView.h */,
+				541FF1EFBC462C5F2D6025B4EF3AC3F4 /* RCTScrollView.m */,
+				1333DF34BCC1C2CC9826871BD1C6560E /* RCTScrollViewManager.h */,
+				285B07084CED5B8409FC45B12EFAA82C /* RCTScrollViewManager.m */,
+				2B9AC28A8363DCA127FF4C72E4BE7B4C /* RCTSegmentedControl.h */,
+				2C0EC8C1352781F37F9C348D1AEE3664 /* RCTSegmentedControl.m */,
+				DF6813A81834A2EDFF105D4B7707D8D3 /* RCTSegmentedControlManager.h */,
+				28138930783525E37E5E25C3532BB9BC /* RCTSegmentedControlManager.m */,
+				4A7BC0AECBE3D1C6327606425CDAEA5F /* RCTShadowView.h */,
+				A925FDF7E18DCB52FF0428FEFE1AA09E /* RCTShadowView.m */,
+				22E793CDB1C4D9553FD4C521780737EA /* RCTShadowView+Layout.h */,
+				62725C5C9F1EB23ADE218A93D71CC95E /* RCTShadowView+Layout.m */,
+				5EB1128651D1F1F9DF76A3279FE596B8 /* RCTSlider.h */,
+				37B98CEEDB302434B52BA3F9793FBC37 /* RCTSlider.m */,
+				C10CAFB22C4971B39F6CD461C87967D5 /* RCTSliderManager.h */,
+				0FC36F6541C3F68769D578029E43DCA8 /* RCTSliderManager.m */,
+				BEDC590542D8DBDEDC0B40120A0ADC93 /* RCTSwitch.h */,
+				F1F9A9EB27EF92679B2A4830D8E3313F /* RCTSwitch.m */,
+				AC315493D2CC21399C4B35B91C689B3C /* RCTSwitchManager.h */,
+				CEF4F69E4E18CCEE274AEFA04C3CB17E /* RCTSwitchManager.m */,
+				F5293B136798E18DF837F2E4A26DE6E4 /* RCTTabBar.h */,
+				D3AD7BF466BC64CDBF6705F783C896AC /* RCTTabBar.m */,
+				AAB5A4341174EE9EA281B6ED58D98049 /* RCTTabBarItem.h */,
+				691D6B96866C2A1805F7EA9D6EDF1B06 /* RCTTabBarItem.m */,
+				C37219683D5328763AA1586B488CDD3B /* RCTTabBarItemManager.h */,
+				9F40D0682C4622E2D9F56B16F6DC1B2A /* RCTTabBarItemManager.m */,
+				01D28FFC4544F5EF75CB1396AAEF8E12 /* RCTTabBarManager.h */,
+				23EA34B934584C06CA93AA6EF034B78D /* RCTTabBarManager.m */,
+				1796422473E3DB2B2C06BFEB126FF89C /* RCTTextDecorationLineType.h */,
+				25FDEAB5E564604FFD6B27303C526B57 /* RCTView.h */,
+				2634F0F2ED4C445AFDF7C591455CF05B /* RCTView.m */,
+				7AF9776E7FF4F3DD265D42C2229B6205 /* RCTViewControllerProtocol.h */,
+				B28655B2708FAEF055E2BA63095CBB39 /* RCTViewManager.h */,
+				8CD998C8FBB33EAE7B7B813FB91062CF /* RCTViewManager.m */,
+				7A16F307335C9893CE28EAF2F1DC75F5 /* RCTWebView.h */,
+				C43DB1C59D64B934D96631B3D4132AE8 /* RCTWebView.m */,
+				35F24E0393475B96B5C6146BC86F1431 /* RCTWebViewManager.h */,
+				34E45B9B4DC801E60F467C632E7A367A /* RCTWebViewManager.m */,
+				8B5148ACDB5C8E36C457594D1BCDEB74 /* RCTWrapperViewController.h */,
+				1BAF33A5447F1C7723D341499DAABEEF /* RCTWrapperViewController.m */,
+				FC03044C5E4DD2C6D27DD4309F8D2309 /* UIView+Private.h */,
+				274325FA82B9DFC6BF9AF69BA4D7EB6D /* UIView+React.h */,
+				E2814BFA74E7DA624668BF7242F523BF /* UIView+React.m */,
+			);
+			name = Views;
+			path = React/Views;
+			sourceTree = "<group>";
+		};
+		A278A47212BCC2529276E28D95DFB0EC /* React */ = {
+			isa = PBXGroup;
+			children = (
+				282BF0389E3C2729EB48E069474566D8 /* BatchedBridge */,
+				E4A69A8AE11F67516958293FCF9E692B /* Core */,
+				5FC46C83D4BA544CA625096AD6270805 /* cxxreact_legacy */,
+				491D981F404EAFCE640C8689454A298B /* jschelpers_legacy */,
+				6501DFA10B5330DA7D870DB8263C4ADC /* RCTActionSheet */,
+				8DDF11F704242CEF9B7AA5F419CC5F00 /* RCTAnimation */,
+				48D21EBCD9FEC2FB88AC8FBA46892F41 /* RCTGeolocation */,
+				EDF97947023EE3166E4F6367B89A8F68 /* RCTImage */,
+				F84DFF27B44C4B13AC483FE33A63B4DD /* RCTLinkingIOS */,
+				0B5DE521D36089CDED18A6708C41BFB7 /* RCTNetwork */,
+				4EE917039502DAD4C36248A39A9790DB /* RCTSettings */,
+				EB85DA87258442602D87F99A8E81369F /* RCTText */,
+				B3C026331409AFBC5A1DBC663988F09A /* RCTVibration */,
+				8E8FF04E20A769E23031B4734151955A /* RCTWebSocket */,
+				7C79A9742A1ADD0CAE3705D7037F277B /* Support Files */,
+			);
+			name = React;
+			path = "../../node_modules/react-native";
+			sourceTree = "<group>";
+		};
+		B3C026331409AFBC5A1DBC663988F09A /* RCTVibration */ = {
+			isa = PBXGroup;
+			children = (
+				9F4962CE218C88B7648B6414C052C908 /* RCTVibration.h */,
+				ED86CCDA71F3885E574B5CDCB6610A33 /* RCTVibration.m */,
+			);
+			name = RCTVibration;
+			sourceTree = "<group>";
+		};
+		C3D1197302894F57373FDB00DB32CF7C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6C5972D47A0DD5600C861014EF9D3FC6 /* RCTAssert.h */,
+				7C361CDDBB05735F7E24E202AB4B5579 /* RCTAssert.m */,
+				03E15FBD6899463B8CD881809E9D3BC3 /* RCTBridge.h */,
+				0391ED350669A31A1FE184BB46486F59 /* RCTBridge.m */,
+				CF9AAECEE2D24D6900F978CD159EDFDF /* RCTBridge+Private.h */,
+				EEFB6FD6EDAC7E51C3B4CAE34F41D5DB /* RCTBridgeDelegate.h */,
+				3F92BC2CEDB0782B40CC9F40DB09D059 /* RCTBridgeMethod.h */,
+				7664E1F10B67F4A25F98FDC2FCC69EF0 /* RCTBridgeModule.h */,
+				83A089F6BF5BF870F1825DFBA30FEB41 /* RCTBundleURLProvider.h */,
+				C70940C77AE3375D1DA78B998DC49819 /* RCTBundleURLProvider.m */,
+				23682A0D29B62ECBFC7598324D98FB88 /* RCTConvert.h */,
+				90359A8B443ECB73C5465B2D9D27E708 /* RCTConvert.m */,
+				CD9ED0208B9C92F2EC429D1D6EF47C18 /* RCTDefines.h */,
+				BBC02791746DF7D31E898AD06E34C3F1 /* RCTDisplayLink.h */,
+				59DE2E42A2A3053F4E137E98B8D1F961 /* RCTDisplayLink.m */,
+				D796B7D9C322BD86E415FD82CF2934F4 /* RCTErrorCustomizer.h */,
+				486CB102FB39E676EF6EA46321834232 /* RCTErrorInfo.h */,
+				78DC722F637992997A3BDF3F64C13F44 /* RCTErrorInfo.m */,
+				8A0106C53509B75FC6C85843CFF051BE /* RCTEventDispatcher.h */,
+				B6F4AAC05D14E337B9391F85AE582020 /* RCTEventDispatcher.m */,
+				49E6B52E3F5AC138A68A41DBE975D71E /* RCTFrameUpdate.h */,
+				3054DB2FEF3D8D7A81FD4160589BF503 /* RCTFrameUpdate.m */,
+				5DF1EA7F17A571FFC5F7845747A2FFE9 /* RCTImageSource.h */,
+				2F78A249C459CD7370A64B0117D74F3D /* RCTImageSource.m */,
+				ADE1985EE56E51DAD95EAC531FD04ED5 /* RCTInvalidating.h */,
+				F4E90E42E4607446647FCF82110D7BB6 /* RCTJavaScriptExecutor.h */,
+				CDFCB7E90DE9956498CBF6AF9107D832 /* RCTJavaScriptLoader.h */,
+				3B076DFC56E31930CBB120F35F78B140 /* RCTJavaScriptLoader.mm */,
+				A4219E5B2E9B40964745D34749263227 /* RCTJSCErrorHandling.h */,
+				5A1022E5CB10D1AD294F5C9D902C9547 /* RCTJSCErrorHandling.mm */,
+				0B83FAB4A6DC05AAE2C337B4EC58D078 /* RCTJSEnvironment.h */,
+				55F99D8EE00F025DC58DAB1300391266 /* RCTJSStackFrame.h */,
+				49BB17D0D68D16212610007EF18C277D /* RCTJSStackFrame.m */,
+				EEE497E2B35CEFE0BA569C656BF3C5D0 /* RCTKeyCommands.h */,
+				6CB26137FA5FE489E00BFF5902AF43D0 /* RCTKeyCommands.m */,
+				8D4DEBC8E1CA222B08474E0659BD63C5 /* RCTLog.h */,
+				C4969E08DE946658056A980539F108F4 /* RCTLog.mm */,
+				A239A82BA940E9E8C6FFE3A4C72C5A91 /* RCTModuleData.h */,
+				98B73F75E5BDB54608DBFC6F723DDB25 /* RCTModuleData.mm */,
+				DE0A31EBE439F7D9CA71073C91641C40 /* RCTModuleMethod.h */,
+				44246B5E8A5C14FFBEB268D90292975F /* RCTModuleMethod.m */,
+				104EAB1E7A3ACE73CC8201CB65E8FB3A /* RCTMultipartDataTask.h */,
+				21A45A41DC58007898EFF0A2EDF83489 /* RCTMultipartDataTask.m */,
+				BEFE29D1C6A3718EB519F64826B287CE /* RCTMultipartStreamReader.h */,
+				4590D98DAC3F863CE9CBE24205B36502 /* RCTMultipartStreamReader.m */,
+				1A727AB52284DEE682C2DBF80285D081 /* RCTNullability.h */,
+				812026B3A646415F5F78C3A3F465F2D5 /* RCTParserUtils.h */,
+				9E319B0FAFCA1719EF6F65676A86B937 /* RCTParserUtils.m */,
+				B22780A17816F7E4905540731C7A2669 /* RCTPerformanceLogger.h */,
+				B276C6378FE1C7ACD0F180D150A89AFB /* RCTPerformanceLogger.m */,
+				4B766C30BC5D8FE4C81371BA09A17935 /* RCTPlatform.h */,
+				06A9E4657FD9BABD1818B55DEF1E7C96 /* RCTPlatform.m */,
+				CF5D7310253738B3765D3B88A32FC8EC /* RCTReloadCommand.h */,
+				BDF072962B36A6BE35D6685C7E5B5E8E /* RCTReloadCommand.m */,
+				12C542E1C83ECE429BE6DDCF97D23CEF /* RCTRootContentView.h */,
+				D9AF3237DD5AA057E41A3B3FD811AF5F /* RCTRootContentView.m */,
+				C991D7FC514D4AA99987B474BE4EDC97 /* RCTRootView.h */,
+				8CD45092E19A44B94FD6F817D7710EB0 /* RCTRootView.m */,
+				0B14E6EAC04DE68C33DC538825CB09D5 /* RCTRootViewDelegate.h */,
+				09661289C3AD6A1B17D9E8496037CEBE /* RCTRootViewInternal.h */,
+				3BDC97BCF68646B95D3E4AF264E4F005 /* RCTTouchEvent.h */,
+				728633FC5F0CAD4B2F83C149C2C38A7C /* RCTTouchEvent.m */,
+				465BD172964EBCEC6820D9E82D4293A9 /* RCTTouchHandler.h */,
+				F819A801704DB25C2CE4E676F144EE8D /* RCTTouchHandler.m */,
+				F41FA7944FF6029FF1704DA2F1C22E5D /* RCTTVRemoteHandler.h */,
+				EB9E980CD29E8992E02E5EA67C6F6A59 /* RCTTVRemoteHandler.m */,
+				43402004E26DA3116D8A7A0A42110112 /* RCTURLRequestDelegate.h */,
+				5F1C7A37266D0AC22387C8D52C0B4E30 /* RCTURLRequestHandler.h */,
+				F8536AC08FB5239B25C2FFD124A2C0C3 /* RCTUtils.h */,
+				D8C66D8776C6AE3E51D366499B1D2E84 /* RCTUtils.m */,
+				6424A9A7C4E6C7831AA837B4923E5EF7 /* RCTWebSocketObserverProtocol.h */,
+			);
+			name = Base;
+			path = React/Base;
+			sourceTree = "<group>";
+		};
+		D791889349328944B4906367779EC39A /* Profiler */ = {
+			isa = PBXGroup;
+			children = (
+				0226F45ECB56DEC3ACA33021F9C0EFA1 /* RCTFPSGraph.h */,
+				6722D65DF64358D82122806E4F979D1E /* RCTFPSGraph.m */,
+				6B484021B19991EEB63D7CB9D3B29DF1 /* RCTJSCProfiler.h */,
+				37415516D02831C67B672F29095CB2C3 /* RCTJSCProfiler.m */,
+				51B476B07DE98E7B62E10A6CB2B7D2D5 /* RCTMacros.h */,
+				51EB2F76C04C1D009710CBE416BF1057 /* RCTPerfMonitor.m */,
+				53C44BD75626567299430F099535146C /* RCTProfile.h */,
+				57DC3795213031443C4208F2019764B2 /* RCTProfile.m */,
+				05D8893F52EC6EA3A1BF41DB0A554328 /* RCTProfileTrampoline-arm.S */,
+				FFDBF8E0531122CFB84D335E1DA44E21 /* RCTProfileTrampoline-arm64.S */,
+				C33A8C8B7A87BFFE485AECE612F6BC59 /* RCTProfileTrampoline-i386.S */,
+				3B47D067544EAC747C91735DB8363388 /* RCTProfileTrampoline-x86_64.S */,
+			);
+			name = Profiler;
+			path = React/Profiler;
+			sourceTree = "<group>";
+		};
+		E0D1782317569233F3AC6C6349FC33DD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5CD513680A5E3FF020B34E6E3E2DF133 /* RCTAccessibilityManager.h */,
+				7712C5795175612196C3F66B71EE5285 /* RCTAccessibilityManager.m */,
+				16AC5B892CA33BFE09BCFD448FDD13BD /* RCTAlertManager.h */,
+				EC4FFA5F3FC09374E3068342E72AC7A9 /* RCTAlertManager.m */,
+				96ACD35903767C89DB8829D42AB67D42 /* RCTAppState.h */,
+				C94EB4FA786E84E9560C9773340199E1 /* RCTAppState.m */,
+				BAAB767EF9D3F7A90708EC033DC06D4E /* RCTAsyncLocalStorage.h */,
+				7EC366922C98AC817B29E4EF57457196 /* RCTAsyncLocalStorage.m */,
+				3CF8D8ED164236DEA6850A5BA9945630 /* RCTClipboard.h */,
+				79573F70946E6FA51FA9C130BB87DEC6 /* RCTClipboard.m */,
+				EA76FD094F1C63592C188E6AA9A9C19F /* RCTDeviceInfo.h */,
+				90D347A1482DAD8A2AA7C9ECE9208B65 /* RCTDeviceInfo.m */,
+				5624F35882DBE3469D4CCA50BD248F32 /* RCTDevSettings.h */,
+				3C49DE3D6C14BCBD7B3CB4DA14323886 /* RCTDevSettings.mm */,
+				AE63C49FAAF0B8070197E1C8EE9064A6 /* RCTEventEmitter.h */,
+				3AD95AC0AEB7AD61A3D941F5795C87BA /* RCTEventEmitter.m */,
+				ADC27FACF748518A5829BFCAA8823C3E /* RCTExceptionsManager.h */,
+				797926C7F570F3FC129834A042E20776 /* RCTExceptionsManager.m */,
+				18A8F53FB63288CE2BFF4A844C611552 /* RCTI18nManager.h */,
+				CBBC3BE9D71883284DB25F91E1747C5B /* RCTI18nManager.m */,
+				A548BF00E711375C95E0A31B0A0F1EF9 /* RCTI18nUtil.h */,
+				298CE4C1A0A865A5E331E203C7BFBDDB /* RCTI18nUtil.m */,
+				00DA35A913DECD2B4E7DF7B037552115 /* RCTJSCSamplingProfiler.h */,
+				5512A7BF7BC2C4129C87AE5E581D444B /* RCTJSCSamplingProfiler.m */,
+				4F5972BC6F2B50B4AE9243972A23A73F /* RCTKeyboardObserver.h */,
+				BBD1B65370EEBD2E58F3299B9A588196 /* RCTKeyboardObserver.m */,
+				401064419E4E403C2EE03F47A2EBD7D9 /* RCTLayoutAnimation.h */,
+				9C32E43D191DE645C083835C6DC4D1F0 /* RCTLayoutAnimation.m */,
+				FEAEA556B9A36F7309C4442291E803F4 /* RCTLayoutAnimationGroup.h */,
+				C91790F144565CA72B1E2EF2C3651555 /* RCTLayoutAnimationGroup.m */,
+				0AA96091511A60A689B8B81FD01807DF /* RCTRedBox.h */,
+				C3F131C891205357C70457A35B26B37B /* RCTRedBox.m */,
+				04187DFEC4573EA6B110E241050CCD46 /* RCTSourceCode.h */,
+				7BE30D30BCFE03F958C325DC49D4E0D3 /* RCTSourceCode.m */,
+				DBD546BF3DBFFA45D8BB6EBAF374E150 /* RCTStatusBarManager.h */,
+				8894145A83D42C0ECA28F313B9249AFB /* RCTStatusBarManager.m */,
+				5AAAB8C64C3D47CE849E4606EFA44B03 /* RCTTiming.h */,
+				308FA0F5E79A98448640C3688161B570 /* RCTTiming.m */,
+				3282F7561FB0090428A6136FB9338399 /* RCTTVNavigationEventEmitter.h */,
+				C917CFFDEF7D0787171E7EA5BC96B8F8 /* RCTTVNavigationEventEmitter.m */,
+				57DBA127747B353EC0146D27D369E3AF /* RCTUIManager.h */,
+				B5C7684102DDF890BE34A1F340DC5CF8 /* RCTUIManager.m */,
+				1E748077433823559EA601F99DF38E8F /* RCTUIManagerObserverCoordinator.h */,
+				95E10808AE383185555E1C7EBF90AD4A /* RCTUIManagerObserverCoordinator.m */,
+			);
+			name = Modules;
+			path = React/Modules;
+			sourceTree = "<group>";
+		};
+		E4A69A8AE11F67516958293FCF9E692B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C3D1197302894F57373FDB00DB32CF7C /* Base */,
+				E0D1782317569233F3AC6C6349FC33DD /* Modules */,
+				D791889349328944B4906367779EC39A /* Profiler */,
+				9FA5087E30566F654EA6CC37776E58A6 /* Views */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E4E6CDC2C85BCB37118677ACA0F38D0F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				825A398B6652985C0056EBB2B607F1F3 /* Pods-map */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E6366CDDDF97870B0159C70750206A35 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24A70619F607DB7D4BD56C3190F614BD /* Yoga.xcconfig */,
+				FF2AE4A220C49DF356CDF6CDAAE37C82 /* Yoga-dummy.m */,
+				100C5C4E144E4D9FE7C2889494C649B4 /* Yoga-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../../ios/Pods/Target Support Files/Yoga";
+			sourceTree = "<group>";
+		};
+		EB85DA87258442602D87F99A8E81369F /* RCTText */ = {
+			isa = PBXGroup;
+			children = (
+				C870C0C8C1A1E32EC5E5884C0850F526 /* RCTBackedTextInputViewProtocol.h */,
+				6E91ACCDC6EA5B35427236C3F7B36C92 /* RCTConvert+Text.h */,
+				DD786121C5064996BF970CD65415A651 /* RCTConvert+Text.m */,
+				AF62FCBC45B41D570A04E93143F114FE /* RCTRawTextManager.h */,
+				A934B7BC1F02D2E2CECD3EDFE07122D2 /* RCTRawTextManager.m */,
+				BBA01334828D9728C220A0EFB75DF3BD /* RCTShadowRawText.h */,
+				C1C1226A07BB55A151607B0EFDA94DE1 /* RCTShadowRawText.m */,
+				FE026D5FF2E0B06D45E94CCA9EB9CEAF /* RCTShadowText.h */,
+				F582FDF6FC0672305893AB760FFCC448 /* RCTShadowText.m */,
+				35DA2547BC0BBCE79DB33C7A11E5FA4D /* RCTShadowTextField.h */,
+				8F631BB266433E8229B622CCD6729D3D /* RCTShadowTextField.m */,
+				7D8A2DA459DCDB64FA0B30486D66DBA5 /* RCTShadowTextView.h */,
+				F2FEE3144093D1D3DFB6FE6A5D966526 /* RCTShadowTextView.m */,
+				FE17A45578E9B62B36F94812DF1C0FD8 /* RCTText.h */,
+				C313374F4D5C9A0738268CCF1EC2E4C4 /* RCTText.m */,
+				17CBC0CE9761C65DF624D2186B518E9E /* RCTTextField.h */,
+				E9C9D01492115A842D862745D66EA5D7 /* RCTTextField.m */,
+				28D31A3D70E92FB7C684FA47BE47114E /* RCTTextFieldManager.h */,
+				65BB8AC37D1E739CB4E964579E16E61C /* RCTTextFieldManager.m */,
+				B5FEAEA083FE96C138F43E4F1C085806 /* RCTTextInput.h */,
+				5F8CAEC69ACCC30F0CA23A479F73256A /* RCTTextInput.m */,
+				991248B6F2D595B787A36703F546A1FC /* RCTTextManager.h */,
+				B397510992D6E9BFE70FFAE8F1653541 /* RCTTextManager.m */,
+				4E8C3C5872E3F8FB6117F4E6B6C5F128 /* RCTTextSelection.h */,
+				339145B485A60D38F4A5A869F11F0AE2 /* RCTTextSelection.m */,
+				01871E72EAB5271A8C45DF57D087CD8F /* RCTTextView.h */,
+				DA4B587088684C893B63F5BCB8C29633 /* RCTTextView.m */,
+				F60E0BAE2B143822FFACFD3FA2BA7BD2 /* RCTTextViewManager.h */,
+				BF6C3162D0B1CD8A62BFDD059F87DC3D /* RCTTextViewManager.m */,
+				7EAE0015CC1EFCFF29683AF1FEABEC69 /* RCTUITextField.h */,
+				0DA4042DE43DF43BF5F8DFCB1A4E1F33 /* RCTUITextField.m */,
+				C2151DDDB84733EE47A07B361804CE31 /* RCTUITextView.h */,
+				FB187A445B7C3F35A0EF833975691C4E /* RCTUITextView.m */,
+			);
+			name = RCTText;
+			sourceTree = "<group>";
+		};
+		EDF97947023EE3166E4F6367B89A8F68 /* RCTImage */ = {
+			isa = PBXGroup;
+			children = (
+				83437037ED5B2BC235A0D3F94057427A /* RCTGIFImageDecoder.h */,
+				0AC1E7BB28315778E54FBD8A3500FD11 /* RCTGIFImageDecoder.m */,
+				C53CC5DF6BFABA517DC22691280B7852 /* RCTImageBlurUtils.h */,
+				80009733E120211AB607EBC21D4C5184 /* RCTImageBlurUtils.m */,
+				E565DFAD1A6269337849A4DFABAA1AB9 /* RCTImageCache.h */,
+				12353AB22C2CA94DB87769CAC26FD626 /* RCTImageCache.m */,
+				7D5A1DE4123CF1B144159420ACED5D08 /* RCTImageEditingManager.h */,
+				2BBBCE1F45AA058B94EACB5BB0229A08 /* RCTImageEditingManager.m */,
+				42957428CC6D11D058A712360EBA37B3 /* RCTImageLoader.h */,
+				DBD76ED26E92B9F8A60F2E4275C26BE5 /* RCTImageLoader.m */,
+				3A6C65460E374BA6D244A65AE934E6A4 /* RCTImageShadowView.h */,
+				B4E28EDE3757166003FA7FB719A463E6 /* RCTImageShadowView.m */,
+				828622C7353387F1AD641FEE99FA8DED /* RCTImageStoreManager.h */,
+				B8F18F752E737666419AA22573857D09 /* RCTImageStoreManager.m */,
+				CC2B8D1E1C0CF9FE70B3B7FBAE9D1503 /* RCTImageUtils.h */,
+				399DE69EC70D2C227DD9A24007708DD9 /* RCTImageUtils.m */,
+				9D006F9EEB3DB338A7F27D351C12B3A9 /* RCTImageView.h */,
+				3905D626C67844CAD016A80B224D44D1 /* RCTImageView.m */,
+				EB3114FA558661801B768DD94A8941A1 /* RCTImageViewManager.h */,
+				EFEF9817EA6779E3BB511880395D61DA /* RCTImageViewManager.m */,
+				5BA211455DF5E651F365899E23C5F7D4 /* RCTLocalAssetImageLoader.h */,
+				43A5644A5CCF1C534FBADB8B05ED1498 /* RCTLocalAssetImageLoader.m */,
+				6FE38D71C64177530084699B4D1856AC /* RCTResizeMode.h */,
+				3E577FB7204F029C7D6BB20953BE93CA /* RCTResizeMode.m */,
+			);
+			name = RCTImage;
+			sourceTree = "<group>";
+		};
+		F84DFF27B44C4B13AC483FE33A63B4DD /* RCTLinkingIOS */ = {
+			isa = PBXGroup;
+			children = (
+				C8E0E53791E0DADFEC08DF77B82691ED /* RCTLinkingManager.h */,
+				5C875E8CA8A7BB800210CC9B80DD59C0 /* RCTLinkingManager.m */,
+			);
+			name = RCTLinkingIOS;
+			sourceTree = "<group>";
+		};
+		FCBCAF36274A74BDCD56732C3C4C7B38 /* Executors */ = {
+			isa = PBXGroup;
+			children = (
+				463C1C1C47A78FD20FA67F58563EAA18 /* RCTJSCExecutor.h */,
+				9B35F5A550F19DE2A412F7BD38E0B782 /* RCTJSCExecutor.mm */,
+			);
+			name = Executors;
+			path = React/Executors;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CD263C0CCB3E4A7B5DE756FEF06B55F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1252FA1111ABA345ABD978C635EA45B /* YGEnums.h in Headers */,
+				FAA2D079AE8BF1237CBB413552086209 /* YGMacros.h in Headers */,
+				BCBE6470F2648A1F1AEE8F58A698BA7D /* YGNodeList.h in Headers */,
+				8B386399FF90A9DEDBA332AB750401B5 /* Yoga.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01F19841D87C25EB56B7AFAA618B3F1D /* Pods-map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38899AD3D5B933E1BC818436D31273AC /* Build configuration list for PBXNativeTarget "Pods-map" */;
+			buildPhases = (
+				1FE33B33B7A763DEA69D1E5BFA1A6F1F /* Sources */,
+				5CA51A9F48CD0DB74B42C5D8B329D55C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043F4E6D61C3798FF36EEBBC17E5BB23 /* PBXTargetDependency */,
+				E918F3654CE3C91B1781C2E227E458C8 /* PBXTargetDependency */,
+			);
+			name = "Pods-map";
+			productName = "Pods-map";
+			productReference = B53904570D86B24214FC494DC39A6A0B /* libPods-map.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B44E24836B692296C660C2849D82387C /* Yoga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47DB15D6AFA529640132653947696594 /* Build configuration list for PBXNativeTarget "Yoga" */;
+			buildPhases = (
+				4C855F12DC108CF49AB96FD2D8B26588 /* Sources */,
+				75BB00553A475947BCDB023717F82A3B /* Frameworks */,
+				3CD263C0CCB3E4A7B5DE756FEF06B55F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yoga;
+			productName = Yoga;
+			productReference = FED99F6627CF7214DD7CF4ABC2A39F0C /* libYoga.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 735C7FF6ABB5650F28FE73E7012A5575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01F19841D87C25EB56B7AFAA618B3F1D /* Pods-map */,
+				B44E24836B692296C660C2849D82387C /* Yoga */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FE33B33B7A763DEA69D1E5BFA1A6F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764F684F4CA3D7968B87BC5C1E7EA53A /* Pods-map-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C855F12DC108CF49AB96FD2D8B26588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FEC915B2B183BE1A862C447A5D2212 /* YGEnums.c in Sources */,
+				1579EAAFC5190D1DF463298C3EB8B3F7 /* YGNodeList.c in Sources */,
+				E45A368F1DEB0601C6DC2959A719E511 /* Yoga-dummy.m in Sources */,
+				DFD11C5FE31BB52897098CC424A9496F /* Yoga.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043F4E6D61C3798FF36EEBBC17E5BB23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = React;
+			targetProxy = 80289B9F687EEE539B1242ABEB4D6103 /* PBXContainerItemProxy */;
+		};
+		E918F3654CE3C91B1781C2E227E458C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Yoga;
+			target = B44E24836B692296C660C2849D82387C /* Yoga */;
+			targetProxy = 45B27D074FA83E4B30F1B6C1C195DEE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3145565693D1B0C51FF430A91BC6220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6562A59AF7C577ADB5ECB6F141BD8BAE /* Pods-map.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D396C003DB37906B5B1117F945342155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A70619F607DB7D4BD56C3190F614BD /* Yoga.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Yoga/Yoga-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		F7798C41CB6A149051A9616F8B5A5976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A70619F607DB7D4BD56C3190F614BD /* Yoga.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Yoga/Yoga-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		FFA3870FD9EE52BC83CEEBA16B828A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5309905DC7CB86644DE9ACDFF0D64850 /* Pods-map.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38899AD3D5B933E1BC818436D31273AC /* Build configuration list for PBXNativeTarget "Pods-map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3145565693D1B0C51FF430A91BC6220D /* Debug */,
+				FFA3870FD9EE52BC83CEEBA16B828A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47DB15D6AFA529640132653947696594 /* Build configuration list for PBXNativeTarget "Yoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D396C003DB37906B5B1117F945342155 /* Debug */,
+				F7798C41CB6A149051A9616F8B5A5976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

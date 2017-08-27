@@ -1,5 +1,4 @@
-import 'Config/Reactotron'
-import { AppRegistry } from 'react-native'
-import App from './App/Components/App'
+import App from './App/App'
+import { AppRegistry } from 'react-native';
 
-AppRegistry.registerComponent('mapExample', () => App)
+AppRegistry.registerComponent('map', () => App);
